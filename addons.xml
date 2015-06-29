@@ -1,3 +1,150 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.image.garfield_comic" name="Garfield comic" version="1.0.0" provider-name="natko1412">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>image</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Display Garfield comic strips!</summary>
+        <description lang="en">Garfield Kodi plugin displays the daily Garfield comic strip, random Garfield comic strip, last 30 vomic strips or comic date on your input. </description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <language/>
+        <email>natko_maniac@hotmail.com</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.croatia_od"
+	name="Croatia On Demand"
+	version="0.8"
+	provider-name="natko1412">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.urlresolver" version="2.5.0" />
+    <import addon="script.module.stream.resolver" version="1.6.31" />
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Pristupite emisijama na zahtjev sa hrvatskih tv stranica poput hrt.hr i rtl-sada!</summary>
+        <description>Pristupite emisijama na zahtjev sa stranica poput hrt.hr i rtl-sada!
+
+        </description>
+
+    <platform>all</platform>
+    <forum>forum.hr</forum>
+    <website>mediaflow.co.vu</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.filmovita"
+	name="Filmovita"
+	version="0.6"
+	provider-name="natko1412">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.urlresolver" version="2.5.0" />
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Gledajte filmove sa filmovita.com</summary>
+        <description>Gledajte filmove sa filmovita.com
+
+        </description>
+
+    <platform>all</platform>
+    <forum>forum.hr</forum>
+    <website>mediaflow.co.vu</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.footballking" name="Football King" version="0.0.1" provider-name="natko1412">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Football King</summary>
+		<description lang="en">Watch full football matches and highlights.</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.nbafullgames" name="NBA Full Games" version="1.4" provider-name="natko1412">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+    	<import addon="script.module.urlresolver" version="2.5.0" />
+    	<import addon="script.module.youtube" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">NBA Full Games</summary>
+		<description lang="en">Watch full NBA games available in 720p</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.traktus"
+	name="Traktus alpha"
+	version="0.0.1~alpha1"
+	provider-name="natko1412">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.requests" version="2.6.0"/>
+    <import addon="script.module.urlresolver" version="2.5.0" />
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch popular TV shows</summary>
+        <description>Watch popular TV shows
+
+        </description>
+
+    <platform>all</platform>
+    <forum>forum.hr</forum>
+    <website>mediaflow.co.vu</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ytchannels" name="Youtube Channels" version="0.1.4" provider-name="natko1412">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+    	<import addon="script.module.youtube" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch your favourite youtube channels</summary>
+		<description lang="en">Watch your favourite youtube channels and organize them in folders.</description>
+
+		<platform>all</platform>
+	</extension>
+</addon>
 </addons>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.image.garfield_comic" name="Garfield comic" version="1.0.0" provider-name="natko1412">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>image</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Display Garfield comic strips!</summary>
+        <description lang="en">Garfield Kodi plugin displays the daily Garfield comic strip, random Garfield comic strip, last 30 vomic strips or comic date on your input. </description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <language/>
+        <email>natko_maniac@hotmail.com</email>
+    </extension>
+</addon>

@@ -1,0 +1,20 @@
+v0.6 [3.6.2015.]
+-dodani favoriti
+
+v0.5 [25.5.2015.]
+-potpuno novi kod 
+-puno bolje performanse
+-brzi, pouzdaniji
+-posteri se normalno ucitavaju
+-imena se normalno prikazuju
+-bolje ucitavanje linkova
+-puno brza search funkcija
+
+v0.2 [9.4.2015.]
+-dodani coveri za filmove
+-popravljeni bugovi
+-kompatibilno s trakt.tv scrobblerom 
+(ako gledate film, scrobblat ce se na vas trakt.tv racun)
+
+v0.1 [8.4.2015.]
+-prvo izdanje
