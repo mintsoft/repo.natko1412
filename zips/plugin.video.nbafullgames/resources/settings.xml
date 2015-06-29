@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="General">
+    <setting id="quality" type="bool" label="HD quality when available" default="true"/>
+    <setting id="downloads_folder" type="folder" label="Download folder" default="special://userdata/addon_data/plugin.video.nbafullgames/Downloads"/>
+    </category>
+</settings>
