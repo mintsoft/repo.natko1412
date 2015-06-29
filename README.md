@@ -1,2 +1,2 @@
 # repo.natko1412
-Kodi addon repository
+Repository for my Kodi addons.
