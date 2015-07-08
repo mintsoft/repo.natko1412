@@ -1,3 +1,7 @@
+v0.7 [8.7.2015.]
+-dodane Serije sa serijex.com
+-popravljeni žanrovi
+
 v0.6 [3.6.2015.]
 -dodani favoriti
 

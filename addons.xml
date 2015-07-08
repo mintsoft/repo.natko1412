@@ -44,7 +44,7 @@
 
 <addon id="plugin.video.filmovita"
 	name="Filmovita"
-	version="0.6"
+	version="0.7"
 	provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

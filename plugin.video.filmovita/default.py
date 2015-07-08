@@ -6,7 +6,7 @@ Autor: natko1412
 Godina: 2015
 
 Discalimer:
-Izvorni kod možete mijenjati prema licenci prilozenoj sa programom
+Izvorni kod možete mijenjati prema licenci isporucenoj sa programom
 
 '''
 from __future__ import unicode_literals
@@ -28,8 +28,9 @@ import sqlite3
 import os
 
 
-addonID=xbmcaddon.Addon().getAddonInfo("id")
 
+addonID=xbmcaddon.Addon().getAddonInfo("id")
+db_dir = xbmc.translatePath("special://profile/addon_data/"+addonID)
 
 
 db_dir = xbmc.translatePath("special://profile/addon_data/"+addonID)
@@ -38,6 +39,19 @@ if not os.path.exists(db_dir):
     os.makedirs(db_dir)
 
 db=sqlite3.connect(db_path)
+
+
+######################
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -67,24 +81,132 @@ def read_url(url):
         return link.decode('utf-8')
 
 
+trakt_header= {
+      'Content-Type': 'application/json',
+      'trakt-api-version': '2',
+      'trakt-api-key': '%s'%trakt_api,
+      
+      
+    }
 
+
+def get_episode_link(show_slug,season,number,show_year):
+        slugs=['game-of-thrones','walking-dead','vampire-diaries','breaking-bad','tudors','da-vincis-demons',
+            'vikings','better-call-saul','true-detective','originals','gotham','sherlock','blacklist','rome']
+        slugy=['game-of-thrones','the-walking-dead','the-vampire-diaries','breaking-bad','the-tudors','da-vinci-s-demons',
+            'vikings','better-call-saul','true-detective','the-originals','gotham','sherlock','the-blacklist','rome']
+
+        for i in range(len(slugy)):
+            if slugy[i]==show_slug:
+                index=i
+                break
+
+        slug=slugs[index]
+
+        if season=='6': season='sesta'
+        if season=='5': season='peta'
+        if season=='4': season='cetvrta'
+        if season=='3': season='treca'
+        if season=='2': season='druga'
+        if season=='1': season='prva'
+
+        url='http://www.serijex.com/%s-%s-sezona-epizoda-%s/'%(slug,season,number)
+        print(url)
+        return url
+        
+
+def cache_foldername(foldername,fake):
+    
+    cur = db.cursor() 
+    cur.execute("drop table if exists Cache")
+    init_favourites()
+ 
+    cur.execute("begin")   
+    cur.execute('INSERT INTO Cache(Folder, Folder_fake) VALUES ("%s","%s");'%(foldername,fake))
+    db.commit()
+    cur.close()
+
+def return_cached(fake_name):
+    cur = db.cursor()    
+    cur.execute("begin")  
+    
+    cur.execute("SELECT Folder FROM Cache WHERE Folder_fake = ? LIMIT 1 ;",(fake_name,))
+
+    rows = cur.fetchall()
+    cur.close()
+    channels=[]
+    
+    
+    
+    return rows
+def get_tvshows():
+
+    slugs=['game-of-thrones','the-walking-dead','the-vampire-diaries','breaking-bad','the-tudors','da-vinci-s-demons',
+            'vikings','better-call-saul','true-detective','the-originals','gotham','sherlock','the-blacklist','rome']
+
+
+    results=[]
+    for slug in slugs:
+        request = urllib2.Request('https://api-v2launch.trakt.tv/shows/%s?extended=images'%slug, headers=trakt_header)
+        response_body = urllib2.urlopen(request).read().decode('utf-8')
+        decoded_data=json.loads(response_body)
+
+        title=decoded_data['title']
+        year=decoded_data['year']
+        thumb=decoded_data['images']['poster']['thumb']
+        slug=decoded_data['ids']['slug']
+        imdb=decoded_data['ids']['imdb']
+        trakt=decoded_data['ids']['trakt']
+        
+        results.append([title,year,slug,imdb,trakt,thumb])
+    return results
+def get_seasons(slug):
+    request = urllib2.Request('https://api-v2launch.trakt.tv/shows/%s/seasons?extended=images'%slug, headers=trakt_header)
+    response_body = urllib2.urlopen(request).read().decode('utf-8')
+    decoded_data=json.loads(response_body)
+    results=[]
+    for i in range(len(decoded_data)):
+        title='Season %s'%decoded_data[i]['number']
+        number=decoded_data[i]['number']
+        id=decoded_data[i]['ids']['trakt']
+        thumb=decoded_data[i]['images']['poster']['thumb']
+        results+=[[title,id,thumb,number]]
+
+    return results
+
+def get_episodes(slug,season):
+    request = urllib2.Request('https://api-v2launch.trakt.tv/shows/%s/seasons/%s/?extended=images'%(slug,season), headers=trakt_header)
+    response_body = urllib2.urlopen(request).read().decode('utf-8')
+    decoded_data=json.loads(response_body)
+    results=[]
+    for i in range(len(decoded_data)):
+        title=decoded_data[i]['title']
+        season=decoded_data[i]['season']
+        number=decoded_data[i]['number']
+        id=decoded_data[i]['ids']['trakt']
+
+        thumb=decoded_data[i]['images']['screenshot']['medium']
+        results+=[[title,season,number,id,thumb]]
+
+    return results
 def init_favourites():
     
     with db:
     
         cur = db.cursor()    
         cur.execute("begin") 
-        cur.execute("create table if not exists Favourites (Title TEXT, Link TEXT, Thumb TEXT)")
+        cur.execute("create table if not exists Favourites (Title TEXT, Link TEXT, Thumb TEXT, Fan Text)")
+        cur.execute("create table if not exists Cache (Folder TEXT, Folder_fake TEXT)")
         
         db.commit()
         cur.close()
     return
 
-def add_to_favourites(title,link,img):
+def add_to_favourites(title,link,img,fan):
     init_favourites()
     cur = db.cursor()  
     cur.execute("begin")   
-    cur.execute("INSERT INTO Favourites(Title,Link,Thumb) VALUES (?,?,?);",(title,link,img))
+    cur.execute("INSERT INTO Favourites(Title,Link,Thumb, Fan) VALUES (?,?,?, ?);",(title,link,img,fan))
     db.commit()
     cur.close()
     return
@@ -94,7 +216,7 @@ def get_favourites():
 
     cur = db.cursor()
     cur.execute("begin")     
-    cur.execute("SELECT Title,Link,Thumb FROM Favourites")
+    cur.execute("SELECT Title,Link,Thumb, Fan FROM Favourites")
     
     rows = cur.fetchall()
     cur.close()
@@ -426,6 +548,8 @@ def get_links(url):
 
 
 
+
+
 def get_list_of_movies_genre(url,tag_categ):
     category_tags=['akcijski filmovi','animirani filmovi','avanturisticki filmovi','dokumentarni filmovi','domaci filmovi','drame',
                     'fantazije','horor filmovi','filmovi komedije','kriminalisticki filmovi','povijesni filmovi','ratni filmovi',
@@ -606,6 +730,11 @@ if mode is None:
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li,isFolder=True)
 
+    url = build_url({'mode': 'shows', 'foldername': 'Serije'})
+    li = xbmcgui.ListItem('Serije', iconImage='https://raw.githubusercontent.com/natko1412/repo.natko1412/master/img/filmovita-serije.jpg')
+    xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                                listitem=li,isFolder=True)
+
     xbmcplugin.endOfDirectory(addon_handle)
 
 elif mode[0]=='search':
@@ -639,18 +768,19 @@ elif mode[0]=='latest':
     dicti=urlparse.parse_qs(sys.argv[2][1:])
     page=dicti['page'][0]
     lista=get_latest(page)
-    print(lista)
+    
     for i in range(len(lista)):
         ime=lista[i][1]
         link=lista[i][0]
         img=lista[i][2]
-        
+        #fake=ime.decode('ascii','replace')
+        #cache_foldername(ime,fake)
 
 
         url = build_url({'mode': 'open_movie', 'foldername': 'movie','link':'%s'%link , 'thumb':'%s'%img })
         li = xbmcgui.ListItem('%s'%ime, iconImage=img)
 
-        fav_uri = build_url({'mode': 'add_fav', 'title':'%s'%ime, 'thumb':'%s'%img, 'link':'%s'%link})
+        fav_uri = build_url({'mode': 'add_fav', 'title':'banana', 'thumb':'%s'%img, 'link':'%s'%link})
 
         li.addContextMenuItems([ ('Dodaj u Filmovita favorite', 'RunPlugin(%s)'%fav_uri)])
 
@@ -711,7 +841,7 @@ elif mode[0]=='open_category':
         url = build_url({'mode': 'open_movie', 'foldername': 'movie','link':'%s'%link , 'thumb':'%s'%img })
         li = xbmcgui.ListItem('%s'%ime, iconImage=img)
 
-        fav_uri = build_url({'mode': 'add_fav', 'title':'%s'%ime, 'thumb':'%s'%img, 'link':'%s'%link})
+        fav_uri = build_url({'mode': 'add_fav', 'title':'banana', 'thumb':'%s'%img, 'link':'%s'%link})
 
         li.addContextMenuItems([ ('Dodaj u Filmovita favorite', 'RunPlugin(%s)'%fav_uri)])
 
@@ -777,6 +907,7 @@ elif mode[0]=='list_favourites':
         ime=lista[i][0]
         link=lista[i][1]
         img=lista[i][2]
+        fan=lista[i][3]
         
 
 
@@ -788,7 +919,7 @@ elif mode[0]=='list_favourites':
 
         li.addContextMenuItems([ ('Ukloni iz favorita', 'RunPlugin(%s)'%rem_uri),
                                 ('Ukloni sve favorite', 'RunPlugin(%s)'%rem_all) ])
-        
+        li.setProperty("Fanart_Image", fan)
         xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                     listitem=li,isFolder=True)
 
@@ -796,10 +927,15 @@ elif mode[0]=='list_favourites':
 elif mode[0]=='add_fav':
     dicti=urlparse.parse_qs(sys.argv[2][1:])
     link=dicti['link'][0]
-    title=dicti['title'][0]
-    img=dicti['thumb'][0]
+    info=get_movie_info(link)
 
-    add_to_favourites(title,link,img)
+    title=info[0][0]
+    year=info[0][1]
+    desc=info[0][2]
+    img=info[0][3]
+    fanart=info[0][4]
+
+    add_to_favourites(title,link,img,fanart)
 
 elif mode[0]=='rem_fav':
     dicti=urlparse.parse_qs(sys.argv[2][1:])
@@ -817,6 +953,110 @@ elif mode[0]=='rem_all':
 
 
 
+elif mode[0]=='shows':
+    shows=get_tvshows()
+    for i in range(len(shows)):
+        title=shows[i][0]
+        year=shows[i][1]
+        slug=shows[i][2]
+        imdb=shows[i][3]
+        trakt=shows[i][4]
+        thumb=shows[i][5]
+
+        url = build_url({'mode': 'open_show', 'foldername': '%s'%title, 'slug':'%s'%slug, 'imdb':'%s'%imdb, 'trakt':'%s'%trakt, 'year':'%s'%year})
+        li = xbmcgui.ListItem('%s (%s)'%(title,year), iconImage=thumb)
+
+        xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                                    listitem=li,isFolder=True)
 
     
+    
+    xbmcplugin.endOfDirectory(addon_handle)
 
+elif mode[0]=='open_show':
+    dicti=urlparse.parse_qs(sys.argv[2][1:])
+    title_show=dicti['foldername'][0]
+    slug=dicti['slug'][0]
+    imdb=dicti['imdb'][0]
+    trakt=dicti['trakt'][0]
+    show_year=dicti['year'][0]
+
+    seasons=get_seasons(slug)
+
+    for i in range(len(seasons)):
+
+        title=seasons[i][0]
+        if title!='Season 0':
+            id=seasons[i][1]
+            thumb=seasons[i][2]
+            number=seasons[i][3]
+            url = build_url({'mode': 'open_season', 'foldername': '%s'%title,'year':'%s'%show_year, 'show_title':'%s'%title_show,'id':'%s'%number, 'slug':'%s'%slug})
+            li = xbmcgui.ListItem('%s'%title, iconImage=thumb)
+
+            xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                                        listitem=li,isFolder=True)
+
+
+    xbmcplugin.endOfDirectory(addon_handle)
+
+
+
+elif mode[0]=='open_season':
+    dicti=urlparse.parse_qs(sys.argv[2][1:])
+    title_show=dicti['show_title'][0]
+    slug=dicti['slug'][0]
+    id=dicti['id'][0]
+    show_year=dicti['year'][0]
+    episodes=get_episodes(slug,id)
+    for i in range(len(episodes)):
+        title=episodes[i][0]
+        season=episodes[i][1]
+        number=episodes[i][2]
+        id=episodes[i][3]
+        thumb=episodes[i][4]
+        url = build_url({'mode': 'open_episode','foldername':'%s'%title, 'thumb':'%s'%thumb, 'id':'%s'%id,'slug':'%s'%slug, 'year':'%s'%show_year,'show_title':'%s'%title_show,'season':'%s'%season, 'number':'%s'%number})
+        li = xbmcgui.ListItem('%sx%s %s'%(season,number,title), iconImage=thumb)
+
+        xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                                    listitem=li,isFolder=True)
+
+
+    xbmcplugin.endOfDirectory(addon_handle)
+
+elif mode[0]=='open_episode':
+    
+    dicti=urlparse.parse_qs(sys.argv[2][1:])
+    title_show=dicti['show_title'][0]
+    title=dicti['foldername'][0]
+    slug=dicti['slug'][0]
+    season=dicti['season'][0]
+    number=dicti['number'][0]
+    show_year=dicti['year'][0]
+    thumb=dicti['thumb'][0]
+    link=get_episode_link(slug,season,number,show_year)
+    links=get_links(link)
+    hosts=get_host_names(links)
+    dialog = xbmcgui.Dialog()
+    index = dialog.select('Odaberite link:', hosts)
+
+    prob=['Film je u vise djelova na youtube-u.','Posjetite filmovita.com']
+    if index>-1 and links!=prob:
+        
+            link=links[index]
+            import urlresolver
+            resolved=urlresolver.resolve(link)
+
+            li = xbmcgui.ListItem('%s'%title)
+            li.setInfo('video', {'tvshowtitle':'%s'%title_show,
+                                'title':'%s'%title,
+                                'season':'%s'%season,
+                                'episode':'%s'%number
+                                
+                                    })
+            li.setThumbnailImage(thumb)
+            
+            li.setProperty('IsPlayable', 'true')
+
+            xbmc.Player().play(item=resolved, listitem=li)
+    else:
+        pass
