@@ -1,5 +1,11 @@
 NBA Full Games by natko1412
 ==================================
+v2.0 [11-Jul-2015]
+-implemented nba.com videos
+-added some NBA youtube channels
+-added auto-play option (Enabled)
+-new artwork
+
 v1.4 [10-Jun-2015]
 -added Download option on game parts
 -added 'Play this game' option (loads all game parts to a playlist)
