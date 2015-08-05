@@ -2,7 +2,7 @@
 <settings>
 	<category label="General">
     <setting id="broj_rezultata" type="slider" default="10" range="5,5,70" option="int" label="Broj rezultata HRT video emisija"/>
-    <setting id="downloads_folder" type="folder" label="Download folder" default="special://userdata/addon_data/plugin.video.croatia_od/Downloads"/>
+    <setting id="downloads_folder" type="folder" label="Download folder" default=""/>
 
     </category>
 </settings>

@@ -14,6 +14,27 @@ import itertools
 from functions import *
 
 
+def download(name, url):
+       
+            agent = None
+            referer = None
+            cookie = None
+
+            my_addon = xbmcaddon.Addon()
+        
+            desty= my_addon.getSetting('downloads_folder')
+            
+            if not xbmcvfs.exists(desty):
+                xbmcvfs.mkdir(desty)
+
+
+            
+            dest = os.path.join(desty, name + '.mp4')
+
+            import commondownloader
+            commondownloader.download(url, dest, 'Croatia On Demand', referer=referer, agent=agent, cookie=cookie)
+        
+
 def read_url(url):
 
         req = urllib2.Request(url)
@@ -42,11 +63,9 @@ def otvori_epizodu(url,title,thumb):
 
                 
                 link=frames[i]['src']
-                print(link)
                 import urlresolver
 
                 resolved=urlresolver.resolve(link)
-                print(resolved)
                 li = xbmcgui.ListItem('%s'%title)
                 li.setInfo('video', { 'title': '%s'%title })
                 li.setThumbnailImage(thumb)
@@ -69,10 +88,7 @@ def otvori_epizodu(url,title,thumb):
     
         soup=bs(html)
         link=soup.findAll('iframe')[1]['src']
-        print(link)
-        print('exit: ',1)
-        
-        
+       
     except:
 
         try:
@@ -81,11 +97,7 @@ def otvori_epizodu(url,title,thumb):
         
             soup=bs(html)
             link=soup.findAll('iframe')[1]['src']
-            
-            print(link)
-            print('exit: ',2)
-            
-            
+          
         except:
             try:
                 html=read_url(url)
@@ -95,9 +107,7 @@ def otvori_epizodu(url,title,thumb):
                     link=soup.find('div',{'id':'Playerholder'}).find('embed')['src']
                 except:
                     link=soup.find('div',{'id':'Playerholder'}).find('iframe')['src']
-                print(link)
-                print('exit: ',3)
-                
+               
             except:
                 html=read_url(url).lower()
                 ind=html.index('player.src')
@@ -108,8 +118,6 @@ def otvori_epizodu(url,title,thumb):
                 
                 link='http://www.youtube.com/watch?v=' + link
 
-                print(link)
-                print('exit: ',4)
                 
     try:
         import urlresolver
@@ -282,7 +290,7 @@ elif mode[0]=='get_new_rtl':
     lista=get_new(site,index)
 
     for i in range(len(lista)):
-        name=lista[i][1].encode().decode('ascii','ignore')
+        name=lista[i][1]
         li = xbmcgui.ListItem(' %s'%lista[i][1], iconImage='%s'%lista[i][2])
         down_uri = build_url({'mode': 'download_resolved', 'foldername': '%s'%(name), 'link': '%s'%lista[i][0]})
         li.addContextMenuItems([ ('Preuzmi video', 'RunPlugin(%s)'%down_uri)])
@@ -348,9 +356,9 @@ elif mode[0]=='download_resolved':
     link=dicti['link'][0]
     name=dicti['foldername'][0]
     uri=link
-    my_addon = xbmcaddon.Addon()
-    desty= my_addon.getSetting('downloads_folder')
-    download(name,uri,desty)
+    name=name.rstrip('.').replace(' ','_').replace('.','_').replace(':','_').replace(';','').replace("'",'').replace('"','').replace('__','_')
+
+    download(name,uri)
 #####################################################################################################################################################################
 #HRT
 #####################################################################################################################################################################
@@ -427,9 +435,9 @@ elif mode[0]=='download_hrt':
     link=dicti['link'][0]
     name=dicti['foldername'][0]
     uri=get_episode_link(link)
-    my_addon = xbmcaddon.Addon()
-    desty= my_addon.getSetting('downloads_folder')
-    download(name,uri,desty)
+    name=name.rstrip('.').replace(' ','_').replace('.','_').replace(':','_').replace(';','').replace("'",'').replace('"','').replace('__','_')
+
+    download(name,uri)
 #####################################################################################################################################################################
 #MREZA
 #####################################################################################################################################################################
@@ -630,7 +638,6 @@ elif mode[0]=='otvori_lzn_godinu':
 elif mode[0]=='otvori_lzn_ep':
     dicti=urlparse.parse_qs(sys.argv[2][1:])
     url=dicti['url'][0]
-    print(url)
     named=dicti['ep'][0].replace('LZN','Epizoda')
     name='Lud, zbunjen, normalan: '+ named
 

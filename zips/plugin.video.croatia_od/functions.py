@@ -59,7 +59,7 @@ def get_new(site,category):
         contents = resp.read()
     except urllib2.HTTPError, error:
         contents = error.read()
-    html=contents.replace('č','c').replace('ć','c').replace('š','s').replace('Č','C').replace('Ć','C').replace('ž','z').replace('Ž','Z').replace('đ','d').replace('Đ','D')
+    html=contents.replace('č','c').replace('ć','c').replace('š','s').replace('Č','C').replace('Ć','C').replace('ž','z').replace('Ž','Z').replace('đ','d').replace('Đ','D').replace('Š','S')
     soup=bs(html)
 
     if site=='http://www.rtl.hr/rtl-sada/gastro/tri-dva-jedan-kuhaj/':
@@ -363,26 +363,6 @@ def get_episode_link(link):                #====> vraca .mp4 link
             linka=tag['src']
 
         return linka
-
-def download(name, url, desty):
-       
-        agent = None
-        referer = None
-        cookie = None
-
-        #my_addon = xbmcaddon.Addon()
-        
-        #desty= my_addon.getSetting('downloads_folder')
-            
-        if not xbmcvfs.exists(desty):
-            xbmcvfs.mkdir(desty)
-
-        name=name.replace(' ','_').replace('.','_').replace(':','_')
-            
-        dest = os.path.join(desty, name + '.mp4')
-
-        import commondownloader
-        commondownloader.download(url, dest, 'Croatia On Demand', referer=referer, agent=agent, cookie=cookie)
 
 def get_shows_mreza(tagy):
     url='http://mreza.tv/video/'

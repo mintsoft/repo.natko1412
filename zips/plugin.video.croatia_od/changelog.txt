@@ -1,3 +1,6 @@
+v0.9.2 [5.8.2015.]
+-jos nekoliko bugova popravljeno
+
 v0.9 [5.8.2015.]
 -novi optimizirani i brzi kod
 -dodana Download funkcija
