@@ -282,8 +282,9 @@ elif mode[0]=='get_new_rtl':
     lista=get_new(site,index)
 
     for i in range(len(lista)):
+        name=lista[i][1].encode().decode('ascii','ignore')
         li = xbmcgui.ListItem(' %s'%lista[i][1], iconImage='%s'%lista[i][2])
-        down_uri = build_url({'mode': 'download_resolved', 'foldername': '%s'%(lista[i][1]), 'link': '%s'%lista[i][0]})
+        down_uri = build_url({'mode': 'download_resolved', 'foldername': '%s'%(name), 'link': '%s'%lista[i][0]})
         li.addContextMenuItems([ ('Preuzmi video', 'RunPlugin(%s)'%down_uri)])
         
         xbmcplugin.addDirectoryItem(handle=addon_handle, url=lista[i][0], listitem=li)

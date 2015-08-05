@@ -19,7 +19,7 @@
 
 <addon id="plugin.video.croatia_od"
 	name="Croatia On Demand"
-	version="0.9"
+	version="0.9.1"
 	provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import sys
 import urllib
 import urlparse
@@ -58,7 +59,7 @@ def get_new(site,category):
         contents = resp.read()
     except urllib2.HTTPError, error:
         contents = error.read()
-    html=contents
+    html=contents.replace('č','c').replace('ć','c').replace('š','s').replace('Č','C').replace('Ć','C').replace('ž','z').replace('Ž','Z').replace('đ','d').replace('Đ','D')
     soup=bs(html)
 
     if site=='http://www.rtl.hr/rtl-sada/gastro/tri-dva-jedan-kuhaj/':
