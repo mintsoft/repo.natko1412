@@ -1,3 +1,8 @@
+v0.9 [5.8.2015.]
+-novi optimizirani i brzi kod
+-dodana Download funkcija
+-popravljeno dosta greški
+
 v0.8 [29.6.2015.]
 -dodane neke serije sa balkanje.com (BETA)
 

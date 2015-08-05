@@ -19,12 +19,13 @@
 
 <addon id="plugin.video.croatia_od"
 	name="Croatia On Demand"
-	version="0.81"
+	version="0.9"
 	provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.urlresolver" version="2.5.0" />
+
 
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -37,8 +38,8 @@
         </description>
 
     <platform>all</platform>
-    <forum>forum.hr</forum>
-    <website>mediaflow.co.vu</website>
+    <forum>kodi.com.hr</forum>
+
   </extension>
 </addon>
 
