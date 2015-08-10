@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<settings>
-	<category label="Login">
-    <setting id="alluc_username" type="text" label="Alluc username:" default=""/>
-	<setting id="alluc_password" type="text" option="hidden" label="Alluc password:" default=""/>
-    </category>
-</settings>

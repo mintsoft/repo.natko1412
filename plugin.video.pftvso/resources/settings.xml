@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="General">
+    <setting id="episodes_action" type="enum" label="Default action on 'Latest episodes'" values="Host selection|Browse older episodes"/>
+    <setting type="sep"/>
+    <setting label="Reset favourites" type="action" action="RunPlugin(plugin://plugin.video.pftvso/?mode=erase_all)" enable="true" option="close"/>
+    </category>
+
+    <category label="Metadata">
+	<setting id="movie_metadata" type="bool" label="Enable Movie metadata" default="false"/>
+    <setting id="tv_metadata" type="bool" label="Enable TV metadata" default="false"/>	
+    </category>
+
+	<category label="Sources">
+    <setting id="host_select" type="enum" label="Host selection" values="Directory|Dialog" />
+    <setting label="Source blacklist (comma separated e.g.: vidzi.tv,vodlocker.com)" type="lsep"/>
+
+    <setting label="" type="text" id="source_blacklist" default="vodlocker.club"/>
+
+	</category>
+
+
+</settings>

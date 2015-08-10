@@ -108,6 +108,32 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.pftvso"
+	name="ProjectFreeTV.so"
+	version="0.0.1"
+	provider-name="natko1412">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.urlresolver" version="2.5.0" />
+    <import addon="script.module.metahandler" />
+
+
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch movies and TV Shows available at projectfreetv.so</summary>
+        <description>Watch movies and TV Shows available at projectfreetv.so</description>
+
+    <platform>all</platform>
+    <forum>forums.tvaddons.ag</forum>
+
+  </extension>
+</addon>
+
 <addon id="plugin.video.traktus"
 	name="Traktus alpha"
 	version="0.0.1~alpha1"
