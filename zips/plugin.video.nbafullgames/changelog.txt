@@ -1,0 +1,40 @@
+NBA Full Games by natko1412
+==================================
+v2.0 [11-Jul-2015]
+-implemented nba.com videos
+-added some NBA youtube channels
+-added auto-play option (Enabled)
+-new artwork
+
+v1.4 [10-Jun-2015]
+-added Download option on game parts
+-added 'Play this game' option (loads all game parts to a playlist)
+-added Playlists in NBA on Youtube
+
+v1.3.1 [08-Jun-2015]
+-fixed some bugs
+
+v1.3 [21-May-2015]
+-faster loading of game parts
+-added 'Other sports' section
+
+v1.2.51 [18-May-2015]
+-youtube fix
+
+v1.2.5 [16-May-2015]
+-added game search
+-added NBA on Youtube -> NBA channel uploads
+
+v1.2.0 [17-Apr-2015]
+-better categorisation
+-few bugfixes
+
+v1.1.0 [17-Apr-2015]
+-bugfix release
+
+v1.0.0 [15-Apr-2015]
+- initial release
+
+
+
+

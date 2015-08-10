@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.filmovita"
+	name="Filmovita"
+	version="0.7"
+	provider-name="natko1412">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.urlresolver" version="2.5.0" />
+    
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Gledajte filmove sa filmovita.com</summary>
+        <description>Gledajte filmove sa filmovita.com
+
+        </description>
+    
+    <platform>all</platform>
+    <forum>forum.hr</forum>
+    <website>mediaflow.co.vu</website>
+  </extension>
+</addon>
