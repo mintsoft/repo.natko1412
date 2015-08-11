@@ -9,7 +9,7 @@ import sqlite3
 import re
 import os
 import json
-from bs4 import BeautifulSoup as bs
+from BeautifulSoup import BeautifulSoup as bs
 from pftvso import *
 try:
     from addon.common.addon import Addon
@@ -63,7 +63,6 @@ def get_links(url):
         dm=row.find('td').getText()
         domain=h.unescape(dm).strip()
         age=row.findAll('td')[2].getText().strip()
-        
         if 'movie' in url and domain not in blacklist:   
             linksout+=[[domain,link]]
         elif domain not in blacklist:
@@ -982,10 +981,10 @@ elif mode[0]=='all_tv':
     
 
     for i in range(len(shows)):
-        url = build_url({'mode': 'open_show', 'link': '%s'%(shows[i][0])})
-        li = xbmcgui.ListItem('%s'%shows[i][1], iconImage=icon_path('TV_Shows.png'))
+        url = build_url({'mode': 'open_show', 'link': '%s'%(shows[i][1])})
+        li = xbmcgui.ListItem('%s'%shows[i][0], iconImage=icon_path('TV_Shows.png'))
 
-        fav_uri = build_url({'mode': 'add_tv_fav', 'show': shows[i][1],'link': shows[i][0]})
+        fav_uri = build_url({'mode': 'add_tv_fav', 'show': shows[i][0],'link': shows[i][1]})
 
         li.addContextMenuItems([ ('Add to PFTV favourites', 'RunPlugin(%s)'%fav_uri)])
         xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,

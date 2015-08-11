@@ -1,6 +1,8 @@
 =======================================
-ProjectFreeTV.so addon by natko1412
+PFTVso addon by natko1412
 =======================================
+v0.0.2 [11-Aug-2015]
+-use bs3 instead of bs4 (fix Android errors)
 
 v0.0.1 [10-Aug-2015]
 -initial release

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-from bs4 import BeautifulSoup as bs
+from BeautifulSoup import BeautifulSoup as bs
 import urllib2
 import urllib
 import HTMLParser
@@ -27,6 +27,10 @@ def read_url(url):
         	return html.encode('utf-8')
         except:
         	return link.decode('utf-8')
+
+
+
+
 
 
 def get_last_days():
@@ -544,7 +548,7 @@ def get_all_shows():
 	html=read_url('http://projectfreetv.so/watch-tv-series/')
 	soup=bs(html)
 	tags=soup.findAll('ul',{'class':'links'})
-	reg='<a href="(.+?)" title="(.+?)">'
+	reg='<a title="(.+?)" href="(.+?)">'
 	for tag in tags:
 
 
