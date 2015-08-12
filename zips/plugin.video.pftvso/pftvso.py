@@ -8,28 +8,27 @@ import HTMLParser
 import sys
 import json
 import re
+try:
+    from addon.common.net import Net
+except:
+    print 'Failed to import script.module.addon.common'
+    xbmcgui.Dialog().ok("PFTV Import Failure", "Failed to import addon.common", "A component needed by PFTV is missing on your system", "Please visit www.xbmchub.com for support")
+
 
 
 domain="http://projectfreetv.so"
 
 
 
+
 def read_url(url):
+    net = Net()
 
-        req = urllib2.Request(url)
-        req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; rv:33.0) Gecko/20100101 Firefox/33.0')
-        response = urllib2.urlopen(req)
-        link=response.read()
-        response.close()
-        try:
-        	h = HTMLParser.HTMLParser()
-    		html = h.unescape(link)
-        	return html.encode('utf-8')
-        except:
-        	return link.decode('utf-8')
-
-
-
+    html=net.http_GET(url).content
+    
+    h = HTMLParser.HTMLParser()
+    html = h.unescape(html)
+    return html.encode('utf-8')
 
 
 
