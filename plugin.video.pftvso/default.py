@@ -77,6 +77,30 @@ def get_links(url):
         elif domain not in blacklist:
             linksout+=[[domain,link,age]]
     return linksout
+
+def get_linkss(url):
+    my_addon = xbmcaddon.Addon()
+    black = unicode(my_addon.getSetting('source_blacklist'))
+    blacklist=black.split(',')
+    linksout=[]
+    html=read_url(url)
+    soup=bs(html)
+    rows=soup.findAll('tr')
+    a=2
+    if 'movie' in url:
+        a=3
+    for i in range(a,len(rows)):
+        row=rows[i]
+        link=row.find('td').find('a')['href']
+        h = HTMLParser.HTMLParser()
+        dm=row.find('td').getText()
+        domain=h.unescape(dm).strip()
+        age=row.findAll('td')[2].getText().strip()
+        if 'movie' in url and domain not in blacklist:   
+            linksout+=[[domain,link]]
+        elif domain not in blacklist:
+            linksout+=[[domain,link,age]]
+    return linksout
 def add_favourite_show(name, link, thumb):
     with db:
         cur = db.cursor()    
@@ -205,44 +229,41 @@ play = addon.queries.get('play', '')
 
 
 if play:
-    try:
-        import urlresolver
-    except:
-        addon.log_error("Failed to import script.module.urlresolver")
-        xbmcgui.Dialog().ok("PFTV Import Failure", "Failed to import URLResolver", "A component needed by PFTV is missing on your system", "Please visit www.tvaddons.ag for support")
-    
     dicti=urlparse.parse_qs(sys.argv[2][1:])
     link=dicti['url'][0]
     type=dicti['type'][0]
-    links=get_links(link)
-    sources=[]
+    links=get_linkss(link)
+    hosts=[]
+    linky=[]
     if type=='movie':
-        for item in links:
-            host=item[0]
-            link=item[1]
+        for i in range(len(links)):
+            host=links[i][0]
+            link=links[i][1]
+            linky.append(link)
 
-            media = urlresolver.HostedMediaFile(url=link, title=host)
-            sources.append(media)
+            hosts.append(host)
+
     elif type=='ep':
-        for item in links:
-            host=item[0]
-            link=item[1]
-            age=item[2]
+        for i in range(len(links)):
+            host=links[i][0]
+            link=links[i][1]
+            age=links[i][2]
+            linky.append(link)
+            hosts.append(host + '('+age+')')
 
-            media = urlresolver.HostedMediaFile(url=link, title=host + '('+age+')')
-            sources.append(media)
-
+    dialog = xbmcgui.Dialog()
+    index = dialog.select('Choose a source:', hosts)
     
-    source = urlresolver.choose_source(sources)
-    if source:
-        stream_url = source.resolve()
-    else:
-        stream_url = False
+    if index>-1:
+        link=get_link(linky[index])
+        import urlresolver
+        resolved=urlresolver.resolve(link)
 
-        
-    #Play the stream
-    if stream_url:
-        addon.resolve_url(stream_url)
+        if resolved:
+            addon.resolve_url(resolved)
+       
+
+
     
 
 
