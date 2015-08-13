@@ -12,9 +12,19 @@
     </category>
 
 	<category label="Sources">
+    <setting id="autoplay" type="bool" label="Enable autoplay" default="false"/>
+
     <setting label="Source blacklist (comma separated e.g.: vidzi.tv,vodlocker.com)" type="lsep"/>
 
     <setting label="" type="text" id="source_blacklist" default="vodlocker.club"/>
+    <setting label="
+            " type="lsep"/>
+    <setting type="sep"/>
+
+
+    <setting id="enable_sorting" type="bool" label="Enable source sorting" default="false"/>
+    <setting label="Source order (comma separated e.g.: vidzi.tv,vodlocker.com,...)" type="lsep"/>
+    <setting id="sort" type="text" label="" default="vidzi.tv,vodlocker.com" enable="!eq(-2,false)"/>
 
 	</category>
 

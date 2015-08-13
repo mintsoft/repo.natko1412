@@ -25,8 +25,6 @@ except:
     xbmcgui.Dialog().ok("PFTV Import Failure", "Failed to import Metahandlers", "A component needed by PFTV is missing on your system", "Please visit www.xbmchub.com for support")
 
 
-
-
 ###########################################################################################################################################################
 ###########################################################################################################################################################
 ###########################################################################################################################################################
@@ -53,10 +51,15 @@ def icon_path(filename):
 
 
 
-def get_links(url):
+
+
+def get_linkss(url):
     my_addon = xbmcaddon.Addon()
     black = unicode(my_addon.getSetting('source_blacklist'))
     blacklist=black.split(',')
+    
+
+
     linksout=[]
     html=read_url(url)
     soup=bs(html)
@@ -71,36 +74,34 @@ def get_links(url):
         dm=row.find('td').getText()
         domain=h.unescape(dm).strip()
         age=row.findAll('td')[2].getText().strip()
-        link=get_link(link)
         if 'movie' in url and domain not in blacklist:   
             linksout+=[[domain,link]]
         elif domain not in blacklist:
             linksout+=[[domain,link,age]]
     return linksout
 
-def get_linkss(url):
+def sort_links(links):
     my_addon = xbmcaddon.Addon()
+    sort=my_addon.getSetting('enable_sorting')
     black = unicode(my_addon.getSetting('source_blacklist'))
     blacklist=black.split(',')
-    linksout=[]
-    html=read_url(url)
-    soup=bs(html)
-    rows=soup.findAll('tr')
-    a=2
-    if 'movie' in url:
-        a=3
-    for i in range(a,len(rows)):
-        row=rows[i]
-        link=row.find('td').find('a')['href']
-        h = HTMLParser.HTMLParser()
-        dm=row.find('td').getText()
-        domain=h.unescape(dm).strip()
-        age=row.findAll('td')[2].getText().strip()
-        if 'movie' in url and domain not in blacklist:   
-            linksout+=[[domain,link]]
-        elif domain not in blacklist:
-            linksout+=[[domain,link,age]]
-    return linksout
+    listout=[]
+    if sort!='false':
+        sorting=unicode(my_addon.getSetting('sort'))
+        sort_list=sorting.split(',')
+
+        for i in range(len(sort_list)):
+            for j in range(len(links)):
+                if sort_list[i]==links[j][0]:
+                    listout.append(links[j])
+        for k in range(len(links)):
+            
+            if links[k] not in listout and links[k][0] not in blacklist:
+                listout.append(links[k])
+        return listout
+
+    else:
+        return links
 def add_favourite_show(name, link, thumb):
     with db:
         cur = db.cursor()    
@@ -233,35 +234,51 @@ if play:
     link=dicti['url'][0]
     type=dicti['type'][0]
     links=get_linkss(link)
-    hosts=[]
-    linky=[]
-    if type=='movie':
-        for i in range(len(links)):
-            host=links[i][0]
-            link=links[i][1]
-            linky.append(link)
+    links=sort_links(links)
 
-            hosts.append(host)
+    my_addon = xbmcaddon.Addon()
+    autoplay = my_addon.getSetting('autoplay')
+    if autoplay=='false':
+        hosts=[]
+        linky=[]
+        if type=='movie':
+            for i in range(len(links)):
+                host=links[i][0]
+                link=links[i][1]
+                linky.append(link)
 
-    elif type=='ep':
-        for i in range(len(links)):
-            host=links[i][0]
-            link=links[i][1]
-            age=links[i][2]
-            linky.append(link)
-            hosts.append(host + '('+age+')')
+                hosts.append(host)
 
-    dialog = xbmcgui.Dialog()
-    index = dialog.select('Choose a source:', hosts)
-    
-    if index>-1:
-        link=get_link(linky[index])
+        elif type=='ep':
+            for i in range(len(links)):
+                host=links[i][0]
+                link=links[i][1]
+                age=links[i][2]
+                linky.append(link)
+                hosts.append(host + '('+age+')')
+
+        dialog = xbmcgui.Dialog()
+        index = dialog.select('Choose a source:', hosts)
+        
+        if index>-1:
+            link=get_link(linky[index])
+            import urlresolver
+            resolved=urlresolver.resolve(link)
+
+            if resolved:
+                addon.resolve_url(resolved)
+    else:
         import urlresolver
-        resolved=urlresolver.resolve(link)
+        for i in range(len(links)):
+            link=get_link(links[i][1])
+            stream_url = urlresolver.HostedMediaFile(url=link).resolve()
 
-        if resolved:
-            addon.resolve_url(resolved)
-       
+            if stream_url:
+                addon.resolve_url(stream_url)
+                break
+            else:
+                pass
+           
 
 
     

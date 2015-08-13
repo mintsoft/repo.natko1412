@@ -1,6 +1,9 @@
 =======================================
 PFTVso addon by natko1412
 =======================================
+v0.0.5 [13-Aug-2015]
+-add autoplay & source sorting
+
 v0.0.4 [12-Aug-2015]
 -even faster resolve/play method
 
