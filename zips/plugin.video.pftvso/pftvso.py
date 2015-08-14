@@ -12,7 +12,7 @@ try:
     from addon.common.net import Net
 except:
     print 'Failed to import script.module.addon.common'
-    xbmcgui.Dialog().ok("PFTV Import Failure", "Failed to import addon.common", "A component needed by PFTV is missing on your system", "Please visit www.xbmchub.com for support")
+    xbmcgui.Dialog().ok("PFTV Import Failure", "Failed to import addon.common", "A component needed by PFTV is missing on your system", "Please visit www.tvaddons.ag.com for support")
 
 
 
@@ -245,9 +245,10 @@ def get_seasons(url):
 	out=[]
 	for i in range(len(seasons)):
 		link=seasons[i].find('a')['href']
-		name=seasons[i].getText()#.strip()
-		ind=name.index('Season')
-		name=name[ind:]
+		name=seasons[i].getText().lower()
+
+		ind=name.index('season')
+		name=name[ind:].title()
 
 		out+=[[name,link]]
 	return out

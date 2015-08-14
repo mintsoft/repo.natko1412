@@ -2,15 +2,19 @@
 <settings>
 	<category label="General">
     <setting id="episodes_action" type="enum" label="Default action on 'Latest episodes'" values="Host selection|Browse older episodes"/>
+    <setting id="calendar_type" type="enum" label="Calendar type" values="Folders by date|Single folder"/>
+    <setting label="
+            " type="lsep"/>
     <setting type="sep"/>
     <setting label="Reset favourites" type="action" action="RunPlugin(plugin://plugin.video.pftvso/?mode=erase_all)" enable="true" option="close"/>
     </category>
 
     <category label="Metadata">
-	<setting id="movie_metadata" type="bool" label="Enable Movie metadata" default="false"/>
-    <setting id="tv_metadata" type="bool" label="Enable TV metadata" default="false"/>	
+    <setting id="movie_metadata" type="bool" label="Enable Movie metadata" default="false"/>
+    <setting id="tv_metadata" type="bool" label="Enable TV metadata" default="false"/>  
     </category>
 
+    
 	<category label="Sources">
     <setting id="autoplay" type="bool" label="Enable autoplay" default="false"/>
 
@@ -23,10 +27,19 @@
 
 
     <setting id="enable_sorting" type="bool" label="Enable source sorting" default="false"/>
-    <setting label="Source order (comma separated e.g.: vidzi.tv,vodlocker.com,...)" type="lsep"/>
-    <setting id="sort" type="text" label="" default="vidzi.tv,vodlocker.com" enable="!eq(-2,false)"/>
+    <setting label="Source order (comma separated e.g.: vidzi.tv,vodlocker.com)" type="lsep"/>
+    <setting id="sort" type="text" label="" default="" enable="!eq(-2,false)"/>
+    </category>
 
-	</category>
+    
+
+    <category label="Downloads">
+    <setting id="download_folder" type="folder" label="Downloads folder" default=""/>
+    <setting id="autodownload" type="bool" label="Auto select download source" default="false"/>
+    <setting id="down_sort" type="bool" label="Use source sorting" default="false"/>
+
+    </category>
+
 
 
 </settings>

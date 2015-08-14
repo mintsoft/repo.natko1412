@@ -11,6 +11,7 @@ import os
 import json
 from BeautifulSoup import BeautifulSoup as bs
 from pftvso import *
+import xbmcvfs
 try:
     from addon.common.addon import Addon
     from addon.common.net import Net
@@ -22,7 +23,7 @@ try:
     from metahandler import metahandlers
 except:
     print 'Failed to import script.module.metahandler'
-    xbmcgui.Dialog().ok("PFTV Import Failure", "Failed to import Metahandlers", "A component needed by PFTV is missing on your system", "Please visit www.xbmchub.com for support")
+    xbmcgui.Dialog().ok("PFTV Import Failure", "Failed to import Metahandlers", "A component needed by PFTV is missing on your system", "Please visit www.tvaddons.ag for support")
 
 
 ###########################################################################################################################################################
@@ -40,6 +41,7 @@ db=sqlite3.connect(db_path)
 addon = Addon('plugin.video.pftvso', sys.argv)
 AddonPath = addon.get_path()
 IconPath = AddonPath + "/icons/simple/"
+downloadPath = addon.get_setting('download_folder')
 
 def icon_path(filename):
     return IconPath + filename
@@ -51,7 +53,47 @@ def icon_path(filename):
 
 
 
+def download(name, url, type):
+       
+    agent = None
+    referer = None
+    cookie = None
 
+    my_addon = xbmcaddon.Addon()
+
+    downloadPath= my_addon.getSetting('download_folder')
+    
+    
+    if downloadPath and downloadPath !='':
+        if xbmcvfs.exists(downloadPath):
+          tvpath=os.path.join(downloadPath, 'TV Shows', '')
+          moviepath=os.path.join(downloadPath, 'Movies', '')
+        if not xbmcvfs.exists(tvpath):
+            xbmcvfs.mkdir(tvpath)
+        if not xbmcvfs.exists(moviepath):
+            xbmcvfs.mkdir(moviepath)
+
+        if type=='movie':
+            destination=moviepath
+        else:
+            destination=tvpath
+
+        dest = os.path.join(destination, name + '.mp4')
+
+        import commondownloader
+        commondownloader.download(url, dest, 'ProjectFreeTV.so', referer=referer, agent=agent, cookie=cookie)
+
+
+
+
+    else:
+        xbmcgui.Dialog().ok("ProjectFreeTV.so", "You must set your download path!")
+        xbmc.executebuiltin("Addon.OpenSettings(%s)"%addonID)
+
+
+
+    
+    
 
 def get_linkss(url):
     my_addon = xbmcaddon.Addon()
@@ -186,26 +228,45 @@ def add_movie_item(link,thumb, title,meta=None, year=''):
         
         try:
                 fav_uri = build_url({'mode': 'add_movie_fav', 'title':title, 'thumb':thumb , 'link':link, 'year':year})
+                down_uri = build_url({'mode': 'download', 'title':title,'link':link, 'type':'movie'})
+
         except:
                 fav_uri = build_url({'mode': 'add_movie_fav', 'title':title.encode('ascii','ignore'), 'thumb':thumb , 'link':link, 'year':year})
+                down_uri = build_url({'mode': 'download', 'title':title.encode('ascii','ignore'),'link':link, 'type':'movie'})
+
 
         if meta['backdrop_url']==None:
             meta['title']='%s (%s)'%(meta['title'],year)
         contextMenuItems = [('Movie Information', 'XBMC.Action(Info)'),
-                                    ('Add to PFTV favourites','RunPlugin(%s)'%fav_uri)]
+                            ('Add to PFTV favourites','RunPlugin(%s)'%fav_uri),
+                            ('Download','RunPlugin(%s)'%down_uri)]
         addon.add_video_item({'type':'movie','url': link,'title': title, 'year':year}, meta, contextmenu_items=contextMenuItems, context_replace=False, img=meta['cover_url'], fanart=meta['backdrop_url'])
     except:
         pass
 
 def add_tv_item(link,show_title,season,episode,meta=None):
+    seas=str(season.zfill(2))
+    ep=str(episode.zfill(2))
+    title='%s S%sE%s'%(show_title,seas,ep)
+    try:
+        down_uri = build_url({'mode': 'download', 'title':title,'link':link, 'type':'tv'})
+
+    except:
+        down_uri = build_url({'mode': 'download', 'title':title.encode('ascii','ignore'),'link':link, 'type':'tv'})
 
     title='%s: %sx%s'%(show_title,season,episode)
     if meta['title']!=title:
-        #title='%sx%s. %s'%(season,episode,meta['title'])
+        
         meta['title']='%sx%s. %s'%(season,episode,meta['title'])
-    contextMenuItems=[(('Episode Information', 'XBMC.Action(Info)'))]
+    contextMenuItems=[('Episode Information', 'XBMC.Action(Info)'),
+                        ('Download','RunPlugin(%s)'%down_uri)]
 
     addon.add_video_item({'type':'ep','url': link,'title': title, 'season':season, 'episode':episode}, meta,contextmenu_items=contextMenuItems, context_replace=False,img=meta['cover_url'], fanart=meta['backdrop_url'])
+
+
+
+
+
 
 ###########################################################################################################################################################
 ###########################################################################################################################################################
@@ -578,7 +639,7 @@ elif mode[0]=='tv':
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
     url = build_url({'mode': 'last7_tv', 'foldername': 'shows'})
-    li = xbmcgui.ListItem('Last Week', iconImage=icon_path('Last_7_Days.png'))
+    li = xbmcgui.ListItem('TV Calendar', iconImage=icon_path('Last_7_Days.png'))
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
     url = build_url({'mode': 'az_shows', 'foldername': 'shows'})
@@ -665,7 +726,7 @@ elif mode[0]=='latest_tv':
 
                     add_tv_item(link,show,season,episode,meta=meta)
 
-        xbmcplugin.endOfDirectory(addon_handle)  
+        xbmcplugin.endOfDirectory(addon_handle)
 
 
     else:
@@ -806,12 +867,158 @@ elif mode[0]=='more_tv':
 
 elif mode[0]=='last7_tv':
     days=get_last_days()
+    my_addon = xbmcaddon.Addon()
+    action = my_addon.getSetting('calendar_type')
+    action2 = my_addon.getSetting('episodes_action')
+    if action=='0':
 
-    for i in range(len(days)):
-        url = build_url({'mode': 'open_days', 'ind': '%s'%(days[i][1])})
-        li = xbmcgui.ListItem('%s'%days[i][0], iconImage=icon_path('Upcoming.png'))
-        xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
-                                listitem=li, isFolder=True)
+        for i in range(len(days)):
+            url = build_url({'mode': 'open_days', 'ind': '%s'%(days[i][1])})
+            li = xbmcgui.ListItem('%s'%days[i][0], iconImage=icon_path('Upcoming.png'))
+            xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                                    listitem=li, isFolder=True)
+    else:
+        for l in range(len(days)):
+            url = build_url({'mode': 'nada'})
+            li = xbmcgui.ListItem('[COLOR yellow]%s[/COLOR]'%days[l][0], iconImage=icon_path('Upcoming.png'))
+            xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                                    listitem=li)
+
+            eps=get_day_eps(int(days[l][1]))
+            if action2=='0':
+
+                for i in range(len(eps)):
+                        try:
+                            show=eps[i][0]
+                            season=eps[i][1]
+                            episode=eps[i][2]
+                            link=eps[i][3]
+                            my_addon = xbmcaddon.Addon()
+                            meta_setting = my_addon.getSetting('tv_metadata')
+                            meta=None
+                            if meta_setting!='false':
+                                metaget=metahandlers.MetaData()             
+                                meta=metaget.get_episode_meta(eps[i][0], '', eps[i][1], eps[i][2])
+                                title='%s: %sx%s'%(show,season,episode)
+                                meta['title']=title
+                                meta['name']=title
+                            if meta==None:
+                                meta={}
+                                title='%s: %sx%s'%(show,season,episode)
+                                meta['title']=title
+                                meta['name']=title
+                                meta['tvshowtitle']=show
+                                meta['season']=season
+                                meta['episode']=episode
+                                meta['cover_url']=icon_path('TV_Shows.png')
+                                meta['backdrop_url']=None
+                    
+                            add_tv_item(link,show,season,episode,meta=meta)
+                        except:
+                            show=eps[i][0].encode('ascii','ignore')
+                            season=eps[i][1]
+                            episode=eps[i][2]
+                            link=eps[i][3]
+                            my_addon = xbmcaddon.Addon()
+                            meta_setting = my_addon.getSetting('tv_metadata')
+                            meta=None
+                            if meta_setting!='false':
+                                metaget=metahandlers.MetaData()             
+                                meta=metaget.get_episode_meta(show, '', eps[i][1], eps[i][2])
+                                title='%s: %sx%s'%(show,season,episode)
+                                meta['title']=title
+                                meta['name']=title
+                            if meta==None:
+                                meta={}
+                                title='%s: %sx%s'%(show,season,episode)
+                                meta['title']=title
+                                meta['name']=title
+
+                                meta['tvshowtitle']=show
+                                meta['season']=season
+                                meta['episode']=episode
+                                meta['cover_url']=icon_path('TV_Shows.png')
+                                meta['backdrop_url']=None
+
+                            add_tv_item(link,show,season,episode,meta=meta)
+
+                
+
+            else:
+                for i in range(len(eps)):
+
+
+                        try:
+                            show=eps[i][0]
+                            season=eps[i][1]
+                            episode=eps[i][2]
+                            link=eps[i][3]
+                            my_addon = xbmcaddon.Addon()
+                            meta_setting = my_addon.getSetting('tv_metadata')
+                            meta=None
+                            if meta_setting!='false':
+                                metaget=metahandlers.MetaData()             
+                                meta=metaget.get_episode_meta(eps[i][0], '', eps[i][1], eps[i][2])
+                                title='%s: %sx%s'%(show,season,episode)
+                                meta['title']=title
+                                meta['name']=title
+                            if meta==None:
+                                meta={}
+                                title='%s: %sx%s'%(show,season,episode)
+                                meta['title']=title
+                                meta['name']=title
+                                meta['tvshowtitle']=show
+                                meta['season']=season
+                                meta['episode']=episode
+                                meta['cover_url']=icon_path('TV_Shows.png')
+                                meta['backdrop_url']=None
+
+                        except:
+                            show=eps[i][0].encode('ascii','ignore')
+                            season=eps[i][1]
+                            episode=eps[i][2]
+                            link=eps[i][3]
+                            my_addon = xbmcaddon.Addon()
+                            meta_setting = my_addon.getSetting('tv_metadata')
+                            meta=None
+                            if meta_setting!='false':
+                                metaget=metahandlers.MetaData()             
+                                meta=metaget.get_episode_meta(show, '', eps[i][1], eps[i][2])
+                                title='%s: %sx%s'%(show,season,episode)
+                                meta['title']=title
+                                meta['name']=title
+                            if meta==None:
+                                meta={}
+                                title='%s: %sx%s'%(show,season,episode)
+                                meta['title']=title
+                                meta['name']=title
+
+                                meta['tvshowtitle']=show
+                                meta['season']=season
+                                meta['episode']=episode
+                                meta['cover_url']=icon_path('TV_Shows.png')
+                                meta['backdrop_url']=None
+
+                        url = build_url({'mode': 'more_tv','link':link})
+
+                        li = xbmcgui.ListItem(title, iconImage=meta['cover_url'])
+
+                        li.setInfo('video', meta)
+                        li.addContextMenuItems([(('Episode Information', 'XBMC.Action(Info)'))])
+                        li.setProperty("Fanart_Image", meta['backdrop_url'])
+
+                        xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                                        listitem=li, isFolder=True)
+
+
+                
+
+
+
+
+
+
+
     xbmcplugin.endOfDirectory(addon_handle)
 
 
@@ -1309,3 +1516,58 @@ elif mode[0]=='del_movie_all':
     xbmc.executebuiltin("Container.Refresh")
 
 
+elif mode[0]=='download':
+    dicti=urlparse.parse_qs(sys.argv[2][1:])
+    title=dicti['title'][0]
+    type=dicti['type'][0]
+    link=dicti['link'][0] 
+
+    my_addon = xbmcaddon.Addon()
+    links=get_linkss(link)
+    sort = my_addon.getSetting('down_sort')
+    if sort !='false':
+        links=sort_links(links)
+
+    
+    autodown = my_addon.getSetting('autodownload')
+    if autodown=='false':
+        hosts=[]
+        linky=[]
+        if type=='movie':
+            for i in range(len(links)):
+                host=links[i][0]
+                link=links[i][1]
+                linky.append(link)
+
+                hosts.append(host)
+
+        elif type=='tv':
+            for i in range(len(links)):
+                host=links[i][0]
+                link=links[i][1]
+                age=links[i][2]
+                linky.append(link)
+                hosts.append(host + '('+age+')')
+
+        dialog = xbmcgui.Dialog()
+        index = dialog.select('Choose a download source:', hosts)
+        
+        if index>-1:
+            link=get_link(linky[index])
+            import urlresolver
+            resolved=urlresolver.resolve(link)
+
+            if resolved:
+                download(title,resolved,type)
+    else:
+        import urlresolver
+        for i in range(len(links)):
+            link=get_link(links[i][1])
+            stream_url=urlresolver.resolve(link)
+
+            if stream_url:
+                download(title,stream_url,type)
+                break
+            else:
+                pass
+    

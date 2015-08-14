@@ -1,6 +1,11 @@
 =======================================
-PFTVso addon by natko1412
+ProjectFreeTV.so addon by natko1412
 =======================================
+v0.1.0 [14-Aug-2015]
+-add download option
+-add option for calendar type(single folder/folders by date)
+-fix some bugs
+
 v0.0.5 [13-Aug-2015]
 -add autoplay & source sorting
 
