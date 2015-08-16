@@ -1,0 +1,620 @@
+2015-08-14 12:05:43: -- Analysis Started by User
+2015-08-14 12:05:43: L: State file does not exist: C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/_gsdata_/_file_state_v4._gs
+2015-08-14 12:05:43: R: State file does not exist: ftp://ftp.offshoregit.com/_gsdata_/_file_state_v4._gs
+2015-08-14 12:05:48: /plugin.video.nbafullgames/addon.xml: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/changelog.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/commondownloader.py: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/commondownloader.pyo: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/default.py: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/fanart.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/icon.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/LICENSE.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/plugin.video.nbafullgames-2.0.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/resources/media/nba_date.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/resources/media/nba_full_games.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/resources/media/nba_games.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/resources/media/nba_month.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/resources/media/nba_nbacom.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/resources/media/nba_next.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/resources/media/nba_other.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/resources/media/nba_playlists.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/resources/media/nba_search.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/resources/media/nba_teams.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/resources/media/nba_youtube.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.nbafullgames/resources/settings.xml: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/addon.xml: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/changelog.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/default.py: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/fanart.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icon.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icons/simple/All_Shows.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icons/simple/AZ.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icons/simple/Favourites.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icons/simple/Genre.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icons/simple/icon.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icons/simple/Last_24_Hours.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icons/simple/Last_3_Days.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icons/simple/Last_7_Days.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icons/simple/Last_90_Days.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icons/simple/Latest_Added.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icons/simple/Movies.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icons/simple/Next.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icons/simple/Popular.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icons/simple/Search.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icons/simple/Settings.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icons/simple/This_Month.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icons/simple/TV_Shows.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icons/simple/Upcoming.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/icons/simple/Year.png: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/pftvso.py: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/pftvso.pyo: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/plugin.video.pftvso-0.0.1.rar: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/plugin.video.pftvso-0.0.1.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/plugin.video.pftvso-0.0.2.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/plugin.video.pftvso-0.0.3.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/plugin.video.pftvso-0.0.4.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/plugin.video.pftvso-0.0.5.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /plugin.video.pftvso/resources/settings.xml: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.image.garfield_comic/addon.py: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.image.garfield_comic/addon.xml: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.image.garfield_comic/changelog.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.image.garfield_comic/icon.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.image.garfield_comic/LICENSE.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.image.garfield_comic/plugin.image.garfield_comic-1.0.0.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/addon.xml: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/changelog.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/commondownloader.py: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/commondownloader.pyo: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/default.py: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/functions.py: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/functions.pyo: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/icon.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/LICENSE.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.6.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.61.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.62.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.63.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.7.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.71.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.8.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.81.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.9.1.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.9.2.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.9.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.croatia_od/resources/settings.xml: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.filmovita/addon.xml: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.filmovita/changelog.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.filmovita/default.py: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.filmovita/icon.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.filmovita/LICENSE.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.filmovita/plugin.video.filmovita-0.1.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.filmovita/plugin.video.filmovita-0.2.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.filmovita/plugin.video.filmovita-0.21.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.filmovita/plugin.video.filmovita-0.5.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.filmovita/plugin.video.filmovita-0.6.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.filmovita/plugin.video.filmovita-0.7.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.footballking/addon.xml: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.footballking/changelog.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.footballking/default.py: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.footballking/icon.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.footballking/LICENSE.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.footballking/plugin.video.footballking-0.0.1.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/addon.xml: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/changelog.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/commondownloader.py: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/commondownloader.pyo: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/default.py: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/fanart.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/icon.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/LICENSE.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.2.0.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.2.5.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.2.51.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.3.1.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.3.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.4.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-2.0.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/resources/media/nba_date.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/resources/media/nba_full_games.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/resources/media/nba_games.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/resources/media/nba_month.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/resources/media/nba_nbacom.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/resources/media/nba_next.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/resources/media/nba_other.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/resources/media/nba_playlists.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/resources/media/nba_search.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/resources/media/nba_teams.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/resources/media/nba_youtube.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.nbafullgames/resources/settings.xml: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/addon.xml: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/changelog.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/default.py: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/fanart.jpg: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icon.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icons/simple/All_Shows.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icons/simple/AZ.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icons/simple/Favourites.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icons/simple/Genre.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icons/simple/icon.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icons/simple/Last_24_Hours.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icons/simple/Last_3_Days.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icons/simple/Last_7_Days.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icons/simple/Last_90_Days.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icons/simple/Latest_Added.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icons/simple/Movies.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icons/simple/Next.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icons/simple/Popular.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icons/simple/Search.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icons/simple/Settings.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icons/simple/This_Month.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icons/simple/TV_Shows.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icons/simple/Upcoming.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/icons/simple/Year.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/pftvso.py: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/pftvso.pyo: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.1.rar: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.1.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.2.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.3.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.4.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.5.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.pftvso/resources/settings.xml: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.traktus/addon.xml: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.traktus/changelog.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.traktus/default.py: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.traktus/LICENSE.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.traktus/plugin.video.traktus-0.0.1~alpha1.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.traktus/resources/settings.xml: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.ytchannels/addon.xml: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.ytchannels/changelog.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.ytchannels/default.py: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.ytchannels/icon.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.ytchannels/LICENSE.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.1.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.2.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.21.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.22.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.3.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.30.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.31.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.0.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.1.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.2.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.3.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.4.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/plugin.video.ytchannels/resources/settings.xml: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/repository.kodi-czsk/addon.xml: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/repository.kodi-czsk/changelog.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/repository.kodi-czsk/icon.png: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/repository.kodi-czsk/LICENSE.txt: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/repository.kodi-czsk/repository.kodi-czsk-1.0.2.zip: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/repository.natko1412/addon.xml: Conflict: New files that differ
+2015-08-14 12:05:48: /zips/repository.natko1412/repository.natko1412-1.0.0.zip: Conflict: New files that differ
+2015-08-14 12:05:48: Analyze has finished with Conflicts. Resolve Conflicts by selecting the correct sync direction, then click Sync
+2015-08-14 12:05:48: Changes: 417, Conflicts: 189, CopyTime: 0, CopyState: 0/26, Errors: 0, All: 461
+2015-08-14 12:05:48: Left to Right: Copy File: 228 
+2015-08-14 12:05:48: -- Analysis Complete. Time 00:00:06, Speed: 76 files/s
+2015-08-14 12:05:48: 
+2015-08-14 12:06:25: New _gsdata_ folder(s) created, so rescan all job folders for their ghosts
+2015-08-14 12:06:25: == Sync Started by User
+2015-08-14 12:06:26: Create Folder 'ftp://ftp.offshoregit.com/img'
+2015-08-14 12:06:26: Create Folder 'ftp://ftp.offshoregit.com/plugin.image.garfield_comic'
+2015-08-14 12:06:26: Create Folder 'ftp://ftp.offshoregit.com/plugin.video.croatia_od'
+2015-08-14 12:06:26: Create Folder 'ftp://ftp.offshoregit.com/plugin.video.croatia_od/resources'
+2015-08-14 12:06:26: Create Folder 'ftp://ftp.offshoregit.com/plugin.video.filmovita'
+2015-08-14 12:06:26: Create Folder 'ftp://ftp.offshoregit.com/plugin.video.footballking'
+2015-08-14 12:06:26: Create Folder 'ftp://ftp.offshoregit.com/plugin.video.traktus'
+2015-08-14 12:06:26: Create Folder 'ftp://ftp.offshoregit.com/plugin.video.traktus/resources'
+2015-08-14 12:06:26: Create Folder 'ftp://ftp.offshoregit.com/plugin.video.ytchannels'
+2015-08-14 12:06:26: Create Folder 'ftp://ftp.offshoregit.com/plugin.video.ytchannels/resources'
+2015-08-14 12:06:26: Create Folder 'ftp://ftp.offshoregit.com/repository.kodi-czsk'
+2015-08-14 12:06:26: Create Folder 'ftp://ftp.offshoregit.com/repository.natko1412'
+2015-08-14 12:06:27: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/addons.xml' -> 'ftp://ftp.offshoregit.com/addons.xml'
+2015-08-14 12:06:27: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/addons.xml.md5' -> 'ftp://ftp.offshoregit.com/addons.xml.md5'
+2015-08-14 12:06:28: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/addons_xml_generator.py' -> 'ftp://ftp.offshoregit.com/addons_xml_generator.py'
+2015-08-14 12:06:33: 14.8.2015. 12:06:33: Paused
+2015-08-14 12:06:35: 14.8.2015. 12:06:35: Resumed
+2015-08-14 12:06:35: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/akcija.jpg' -> 'ftp://ftp.offshoregit.com/img/akcija.jpg'
+2015-08-14 12:06:41: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/animirani.jpg' -> 'ftp://ftp.offshoregit.com/img/animirani.jpg'
+2015-08-14 12:06:47: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/avanture.jpg' -> 'ftp://ftp.offshoregit.com/img/avanture.jpg'
+2015-08-14 12:06:48: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/category.png' -> 'ftp://ftp.offshoregit.com/img/category.png'
+2015-08-14 12:06:54: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/doku.jpg' -> 'ftp://ftp.offshoregit.com/img/doku.jpg'
+2015-08-14 12:07:00: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/domaci.jpg' -> 'ftp://ftp.offshoregit.com/img/domaci.jpg'
+2015-08-14 12:07:07: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/drama.jpg' -> 'ftp://ftp.offshoregit.com/img/drama.jpg'
+2015-08-14 12:07:13: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/fantasy.jpg' -> 'ftp://ftp.offshoregit.com/img/fantasy.jpg'
+2015-08-14 12:07:19: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/favoriti-filmovita.jpg' -> 'ftp://ftp.offshoregit.com/img/favoriti-filmovita.jpg'
+2015-08-14 12:07:28: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/filmovita-serije.jpg' -> 'ftp://ftp.offshoregit.com/img/filmovita-serije.jpg'
+2015-08-14 12:07:32: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/filmovita.jpg' -> 'ftp://ftp.offshoregit.com/img/filmovita.jpg'
+2015-08-14 12:07:34: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/folder.png' -> 'ftp://ftp.offshoregit.com/img/folder.png'
+2015-08-14 12:07:43: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/horori.jpg' -> 'ftp://ftp.offshoregit.com/img/horori.jpg'
+2015-08-14 12:07:46: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/icon.png' -> 'ftp://ftp.offshoregit.com/img/icon.png'
+2015-08-14 12:07:56: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (0).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (0).jpg'
+2015-08-14 12:08:02: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (1).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (1).jpg'
+2015-08-14 12:08:02: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (10).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (10).jpg'
+2015-08-14 12:08:19: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (100).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (100).jpg'
+2015-08-14 12:08:20: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (101).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (101).jpg'
+2015-08-14 12:08:24: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (102).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (102).jpg'
+2015-08-14 12:08:26: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (103).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (103).jpg'
+2015-08-14 12:08:26: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (104).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (104).jpg'
+2015-08-14 12:08:27: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (105).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (105).jpg'
+2015-08-14 12:08:28: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (106).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (106).jpg'
+2015-08-14 12:08:28: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (107).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (107).jpg'
+2015-08-14 12:08:29: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (108).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (108).jpg'
+2015-08-14 12:08:30: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (109).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (109).jpg'
+2015-08-14 12:08:30: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (11).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (11).jpg'
+2015-08-14 12:08:31: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (110).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (110).jpg'
+2015-08-14 12:08:33: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (111).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (111).jpg'
+2015-08-14 12:08:34: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (112).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (112).jpg'
+2015-08-14 12:08:34: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (113).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (113).jpg'
+2015-08-14 12:08:35: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (114).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (114).jpg'
+2015-08-14 12:08:36: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (115).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (115).jpg'
+2015-08-14 12:08:37: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (116).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (116).jpg'
+2015-08-14 12:08:37: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (117).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (117).jpg'
+2015-08-14 12:08:38: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (12).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (12).jpg'
+2015-08-14 12:08:38: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (13).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (13).jpg'
+2015-08-14 12:08:39: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (14).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (14).jpg'
+2015-08-14 12:08:40: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (15).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (15).jpg'
+2015-08-14 12:08:41: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (16).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (16).jpg'
+2015-08-14 12:08:41: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (17).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (17).jpg'
+2015-08-14 12:08:42: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (18).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (18).jpg'
+2015-08-14 12:08:43: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (19).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (19).jpg'
+2015-08-14 12:08:43: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (2).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (2).jpg'
+2015-08-14 12:08:44: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (20).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (20).jpg'
+2015-08-14 12:08:45: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (21).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (21).jpg'
+2015-08-14 12:08:46: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (22).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (22).jpg'
+2015-08-14 12:08:47: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (23).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (23).jpg'
+2015-08-14 12:08:48: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (24).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (24).jpg'
+2015-08-14 12:08:49: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (25).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (25).jpg'
+2015-08-14 12:08:50: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (26).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (26).jpg'
+2015-08-14 12:08:51: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (27).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (27).jpg'
+2015-08-14 12:08:52: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (28).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (28).jpg'
+2015-08-14 12:08:52: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (29).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (29).jpg'
+2015-08-14 12:08:53: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (3).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (3).jpg'
+2015-08-14 12:08:54: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (30).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (30).jpg'
+2015-08-14 12:08:55: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (31).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (31).jpg'
+2015-08-14 12:08:55: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (32).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (32).jpg'
+2015-08-14 12:08:56: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (33).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (33).jpg'
+2015-08-14 12:08:57: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (34).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (34).jpg'
+2015-08-14 12:08:57: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (35).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (35).jpg'
+2015-08-14 12:08:58: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (36).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (36).jpg'
+2015-08-14 12:08:59: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (37).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (37).jpg'
+2015-08-14 12:08:59: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (38).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (38).jpg'
+2015-08-14 12:09:00: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (39).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (39).jpg'
+2015-08-14 12:09:01: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (4).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (4).jpg'
+2015-08-14 12:09:01: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (40).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (40).jpg'
+2015-08-14 12:09:02: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (41).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (41).jpg'
+2015-08-14 12:09:03: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (42).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (42).jpg'
+2015-08-14 12:09:04: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (43).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (43).jpg'
+2015-08-14 12:09:05: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (44).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (44).jpg'
+2015-08-14 12:09:06: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (45).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (45).jpg'
+2015-08-14 12:09:06: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (46).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (46).jpg'
+2015-08-14 12:09:07: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (47).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (47).jpg'
+2015-08-14 12:09:08: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (48).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (48).jpg'
+2015-08-14 12:09:08: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (49).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (49).jpg'
+2015-08-14 12:09:09: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (5).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (5).jpg'
+2015-08-14 12:09:10: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (50).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (50).jpg'
+2015-08-14 12:09:11: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (51).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (51).jpg'
+2015-08-14 12:09:11: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (52).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (52).jpg'
+2015-08-14 12:09:12: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (53).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (53).jpg'
+2015-08-14 12:09:13: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (54).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (54).jpg'
+2015-08-14 12:09:13: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (55).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (55).jpg'
+2015-08-14 12:09:14: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (56).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (56).jpg'
+2015-08-14 12:09:15: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (57).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (57).jpg'
+2015-08-14 12:09:16: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (58).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (58).jpg'
+2015-08-14 12:09:17: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (59).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (59).jpg'
+2015-08-14 12:09:18: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (6).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (6).jpg'
+2015-08-14 12:09:18: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (60).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (60).jpg'
+2015-08-14 12:09:19: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (61).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (61).jpg'
+2015-08-14 12:09:19: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (62).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (62).jpg'
+2015-08-14 12:09:20: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (63).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (63).jpg'
+2015-08-14 12:09:21: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (64).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (64).jpg'
+2015-08-14 12:09:22: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (65).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (65).jpg'
+2015-08-14 12:09:22: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (66).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (66).jpg'
+2015-08-14 12:09:23: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (67).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (67).jpg'
+2015-08-14 12:09:24: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (68).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (68).jpg'
+2015-08-14 12:09:24: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (69).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (69).jpg'
+2015-08-14 12:09:25: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (7).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (7).jpg'
+2015-08-14 12:09:26: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (70).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (70).jpg'
+2015-08-14 12:09:27: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (71).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (71).jpg'
+2015-08-14 12:09:27: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (72).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (72).jpg'
+2015-08-14 12:09:28: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (73).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (73).jpg'
+2015-08-14 12:09:29: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (74).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (74).jpg'
+2015-08-14 12:09:30: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (75).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (75).jpg'
+2015-08-14 12:09:30: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (76).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (76).jpg'
+2015-08-14 12:09:31: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (77).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (77).jpg'
+2015-08-14 12:09:32: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (78).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (78).jpg'
+2015-08-14 12:09:32: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (79).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (79).jpg'
+2015-08-14 12:09:37: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (8).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (8).jpg'
+2015-08-14 12:09:38: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (80).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (80).jpg'
+2015-08-14 12:09:39: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (81).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (81).jpg'
+2015-08-14 12:09:39: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (82).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (82).jpg'
+2015-08-14 12:09:40: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (84).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (84).jpg'
+2015-08-14 12:09:41: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (85).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (85).jpg'
+2015-08-14 12:09:42: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (86).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (86).jpg'
+2015-08-14 12:09:42: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (87).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (87).jpg'
+2015-08-14 12:09:43: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (88).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (88).jpg'
+2015-08-14 12:09:44: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (89).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (89).jpg'
+2015-08-14 12:09:44: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (9).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (9).jpg'
+2015-08-14 12:09:45: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (90).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (90).jpg'
+2015-08-14 12:09:46: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (91).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (91).jpg'
+2015-08-14 12:09:46: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (92).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (92).jpg'
+2015-08-14 12:09:47: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (93).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (93).jpg'
+2015-08-14 12:09:48: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (94).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (94).jpg'
+2015-08-14 12:09:48: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (95).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (95).jpg'
+2015-08-14 12:09:56: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (96).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (96).jpg'
+2015-08-14 12:09:56: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (97).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (97).jpg'
+2015-08-14 12:09:57: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (98).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (98).jpg'
+2015-08-14 12:09:59: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/img - kopija (99).jpg' -> 'ftp://ftp.offshoregit.com/img/img - kopija (99).jpg'
+2015-08-14 12:10:05: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/kategorije.jpg' -> 'ftp://ftp.offshoregit.com/img/kategorije.jpg'
+2015-08-14 12:10:12: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/komedije.jpg' -> 'ftp://ftp.offshoregit.com/img/komedije.jpg'
+2015-08-14 12:10:18: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/krimi.jpg' -> 'ftp://ftp.offshoregit.com/img/krimi.jpg'
+2015-08-14 12:10:21: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/nba.jpg' -> 'ftp://ftp.offshoregit.com/img/nba.jpg'
+2015-08-14 12:10:25: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/nba_date.jpg' -> 'ftp://ftp.offshoregit.com/img/nba_date.jpg'
+2015-08-14 12:10:31: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/nba_full_games.jpg' -> 'ftp://ftp.offshoregit.com/img/nba_full_games.jpg'
+2015-08-14 12:10:35: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/nba_games.jpg' -> 'ftp://ftp.offshoregit.com/img/nba_games.jpg'
+2015-08-14 12:10:39: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/nba_month.jpg' -> 'ftp://ftp.offshoregit.com/img/nba_month.jpg'
+2015-08-14 12:10:43: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/nba_next.jpg' -> 'ftp://ftp.offshoregit.com/img/nba_next.jpg'
+2015-08-14 12:10:47: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/nba_other.jpg' -> 'ftp://ftp.offshoregit.com/img/nba_other.jpg'
+2015-08-14 12:10:52: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/nba_playlists.jpg' -> 'ftp://ftp.offshoregit.com/img/nba_playlists.jpg'
+2015-08-14 12:10:57: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/nba_search.jpg' -> 'ftp://ftp.offshoregit.com/img/nba_search.jpg'
+2015-08-14 12:11:17: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/nba_teams.jpg' -> 'ftp://ftp.offshoregit.com/img/nba_teams.jpg'
+2015-08-14 12:11:17: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/playlist.png' -> 'ftp://ftp.offshoregit.com/img/playlist.png'
+2015-08-14 12:11:18: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/plus.png' -> 'ftp://ftp.offshoregit.com/img/plus.png'
+2015-08-14 12:11:26: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/povijesni.jpg' -> 'ftp://ftp.offshoregit.com/img/povijesni.jpg'
+2015-08-14 12:11:33: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/pretraga.jpg' -> 'ftp://ftp.offshoregit.com/img/pretraga.jpg'
+2015-08-14 12:11:40: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/ratni.jpg' -> 'ftp://ftp.offshoregit.com/img/ratni.jpg'
+2015-08-14 12:11:46: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/romanticni.jpg' -> 'ftp://ftp.offshoregit.com/img/romanticni.jpg'
+2015-08-14 12:11:52: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/sf.jpg' -> 'ftp://ftp.offshoregit.com/img/sf.jpg'
+2015-08-14 12:11:57: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/sport.jpg' -> 'ftp://ftp.offshoregit.com/img/sport.jpg'
+2015-08-14 12:11:58: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/top.png' -> 'ftp://ftp.offshoregit.com/img/top.png'
+2015-08-14 12:12:04: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/triler.jpg' -> 'ftp://ftp.offshoregit.com/img/triler.jpg'
+2015-08-14 12:12:12: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/western.jpg' -> 'ftp://ftp.offshoregit.com/img/western.jpg'
+2015-08-14 12:12:18: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/img/zadnje.jpg' -> 'ftp://ftp.offshoregit.com/img/zadnje.jpg'
+2015-08-14 12:12:18: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/LICENSE' -> 'ftp://ftp.offshoregit.com/LICENSE'
+2015-08-14 12:12:19: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.image.garfield_comic/addon.py' -> 'ftp://ftp.offshoregit.com/plugin.image.garfield_comic/addon.py'
+2015-08-14 12:12:19: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.image.garfield_comic/addon.xml' -> 'ftp://ftp.offshoregit.com/plugin.image.garfield_comic/addon.xml'
+2015-08-14 12:12:20: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.image.garfield_comic/changelog.txt' -> 'ftp://ftp.offshoregit.com/plugin.image.garfield_comic/changelog.txt'
+2015-08-14 12:12:20: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.image.garfield_comic/icon.png' -> 'ftp://ftp.offshoregit.com/plugin.image.garfield_comic/icon.png'
+2015-08-14 12:12:21: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.image.garfield_comic/LICENSE.txt' -> 'ftp://ftp.offshoregit.com/plugin.image.garfield_comic/LICENSE.txt'
+2015-08-14 12:12:21: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.croatia_od/addon.xml' -> 'ftp://ftp.offshoregit.com/plugin.video.croatia_od/addon.xml'
+2015-08-14 12:12:22: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.croatia_od/changelog.txt' -> 'ftp://ftp.offshoregit.com/plugin.video.croatia_od/changelog.txt'
+2015-08-14 12:12:22: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.croatia_od/commondownloader.py' -> 'ftp://ftp.offshoregit.com/plugin.video.croatia_od/commondownloader.py'
+2015-08-14 12:12:23: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.croatia_od/commondownloader.pyo' -> 'ftp://ftp.offshoregit.com/plugin.video.croatia_od/commondownloader.pyo'
+2015-08-14 12:12:23: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.croatia_od/default.py' -> 'ftp://ftp.offshoregit.com/plugin.video.croatia_od/default.py'
+2015-08-14 12:12:24: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.croatia_od/functions.py' -> 'ftp://ftp.offshoregit.com/plugin.video.croatia_od/functions.py'
+2015-08-14 12:12:25: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.croatia_od/functions.pyo' -> 'ftp://ftp.offshoregit.com/plugin.video.croatia_od/functions.pyo'
+2015-08-14 12:12:26: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.croatia_od/icon.png' -> 'ftp://ftp.offshoregit.com/plugin.video.croatia_od/icon.png'
+2015-08-14 12:12:27: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.croatia_od/LICENSE.txt' -> 'ftp://ftp.offshoregit.com/plugin.video.croatia_od/LICENSE.txt'
+2015-08-14 12:12:29: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.croatia_od/plugin.video.croatia_od-0.81.zip' -> 'ftp://ftp.offshoregit.com/plugin.video.croatia_od/plugin.video.croatia_od-0.81.zip'
+2015-08-14 12:12:31: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.croatia_od/plugin.video.croatia_od-0.9.1.zip' -> 'ftp://ftp.offshoregit.com/plugin.video.croatia_od/plugin.video.croatia_od-0.9.1.zip'
+2015-08-14 12:12:33: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.croatia_od/plugin.video.croatia_od-0.9.2.zip' -> 'ftp://ftp.offshoregit.com/plugin.video.croatia_od/plugin.video.croatia_od-0.9.2.zip'
+2015-08-14 12:12:35: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.croatia_od/plugin.video.croatia_od-0.9.zip' -> 'ftp://ftp.offshoregit.com/plugin.video.croatia_od/plugin.video.croatia_od-0.9.zip'
+2015-08-14 12:12:35: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.croatia_od/resources/settings.xml' -> 'ftp://ftp.offshoregit.com/plugin.video.croatia_od/resources/settings.xml'
+2015-08-14 12:12:35: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.filmovita/addon.xml' -> 'ftp://ftp.offshoregit.com/plugin.video.filmovita/addon.xml'
+2015-08-14 12:12:36: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.filmovita/changelog.txt' -> 'ftp://ftp.offshoregit.com/plugin.video.filmovita/changelog.txt'
+2015-08-14 12:12:37: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.filmovita/default.py' -> 'ftp://ftp.offshoregit.com/plugin.video.filmovita/default.py'
+2015-08-14 12:12:57: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.filmovita/icon.png' -> 'ftp://ftp.offshoregit.com/plugin.video.filmovita/icon.png'
+2015-08-14 12:12:59: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.filmovita/LICENSE.txt' -> 'ftp://ftp.offshoregit.com/plugin.video.filmovita/LICENSE.txt'
+2015-08-14 12:15:07: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.filmovita/plugin.video.filmovita-0.7.zip' -> 'ftp://ftp.offshoregit.com/plugin.video.filmovita/plugin.video.filmovita-0.7.zip'
+2015-08-14 12:15:08: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.footballking/addon.xml' -> 'ftp://ftp.offshoregit.com/plugin.video.footballking/addon.xml'
+2015-08-14 12:15:08: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.footballking/changelog.txt' -> 'ftp://ftp.offshoregit.com/plugin.video.footballking/changelog.txt'
+2015-08-14 12:15:09: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.footballking/default.py' -> 'ftp://ftp.offshoregit.com/plugin.video.footballking/default.py'
+2015-08-14 12:15:51: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.footballking/icon.png' -> 'ftp://ftp.offshoregit.com/plugin.video.footballking/icon.png'
+2015-08-14 12:15:51: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.footballking/LICENSE.txt' -> 'ftp://ftp.offshoregit.com/plugin.video.footballking/LICENSE.txt'
+2015-08-14 12:15:51: /plugin.video.nbafullgames/addon.xml: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/changelog.txt: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/commondownloader.py: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/commondownloader.pyo: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/default.py: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/fanart.jpg: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/icon.png: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/LICENSE.txt: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/plugin.video.nbafullgames-2.0.zip: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/resources/media/nba_date.jpg: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/resources/media/nba_full_games.jpg: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/resources/media/nba_games.jpg: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/resources/media/nba_month.jpg: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/resources/media/nba_nbacom.jpg: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/resources/media/nba_next.jpg: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/resources/media/nba_other.jpg: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/resources/media/nba_playlists.jpg: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/resources/media/nba_search.jpg: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/resources/media/nba_teams.jpg: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/resources/media/nba_youtube.jpg: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.nbafullgames/resources/settings.xml: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.pftvso/addon.xml: unresolved conflict results in No Copy
+2015-08-14 12:15:51: /plugin.video.pftvso/changelog.txt: unresolved conflict results in No Copy
+2015-08-14 12:15:52: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/commondownloader.py' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/commondownloader.py'
+2015-08-14 12:15:52: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/commondownloader.pyo' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/commondownloader.pyo'
+2015-08-14 12:15:53: /plugin.video.pftvso/default.py: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/fanart.jpg: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icon.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icons/simple/All_Shows.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icons/simple/AZ.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icons/simple/Favourites.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icons/simple/Genre.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icons/simple/icon.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icons/simple/Last_24_Hours.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icons/simple/Last_3_Days.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icons/simple/Last_7_Days.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icons/simple/Last_90_Days.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icons/simple/Latest_Added.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icons/simple/Movies.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icons/simple/Next.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icons/simple/Popular.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icons/simple/Search.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icons/simple/Settings.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icons/simple/This_Month.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icons/simple/TV_Shows.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icons/simple/Upcoming.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/icons/simple/Year.png: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/pftvso.py: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/pftvso.pyo: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/plugin.video.pftvso-0.0.1.rar: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/plugin.video.pftvso-0.0.1.zip: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/plugin.video.pftvso-0.0.2.zip: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/plugin.video.pftvso-0.0.3.zip: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/plugin.video.pftvso-0.0.4.zip: unresolved conflict results in No Copy
+2015-08-14 12:15:53: /plugin.video.pftvso/plugin.video.pftvso-0.0.5.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:07: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/plugin.video.pftvso-0.1.0.zip' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/plugin.video.pftvso-0.1.0.zip'
+2015-08-14 12:16:07: /plugin.video.pftvso/resources/settings.xml: unresolved conflict results in No Copy
+2015-08-14 12:16:08: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.traktus/addon.xml' -> 'ftp://ftp.offshoregit.com/plugin.video.traktus/addon.xml'
+2015-08-14 12:16:08: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.traktus/changelog.txt' -> 'ftp://ftp.offshoregit.com/plugin.video.traktus/changelog.txt'
+2015-08-14 12:16:09: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.traktus/default.py' -> 'ftp://ftp.offshoregit.com/plugin.video.traktus/default.py'
+2015-08-14 12:16:10: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.traktus/LICENSE.txt' -> 'ftp://ftp.offshoregit.com/plugin.video.traktus/LICENSE.txt'
+2015-08-14 12:16:10: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.traktus/resources/settings.xml' -> 'ftp://ftp.offshoregit.com/plugin.video.traktus/resources/settings.xml'
+2015-08-14 12:16:10: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.ytchannels/addon.xml' -> 'ftp://ftp.offshoregit.com/plugin.video.ytchannels/addon.xml'
+2015-08-14 12:16:11: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.ytchannels/changelog.txt' -> 'ftp://ftp.offshoregit.com/plugin.video.ytchannels/changelog.txt'
+2015-08-14 12:16:12: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.ytchannels/default.py' -> 'ftp://ftp.offshoregit.com/plugin.video.ytchannels/default.py'
+2015-08-14 12:16:12: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.ytchannels/icon.png' -> 'ftp://ftp.offshoregit.com/plugin.video.ytchannels/icon.png'
+2015-08-14 12:16:13: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.ytchannels/LICENSE.txt' -> 'ftp://ftp.offshoregit.com/plugin.video.ytchannels/LICENSE.txt'
+2015-08-14 12:16:14: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.ytchannels/resources/settings.xml' -> 'ftp://ftp.offshoregit.com/plugin.video.ytchannels/resources/settings.xml'
+2015-08-14 12:16:15: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/README.md' -> 'ftp://ftp.offshoregit.com/README.md'
+2015-08-14 12:16:15: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/repository.kodi-czsk/addon.xml' -> 'ftp://ftp.offshoregit.com/repository.kodi-czsk/addon.xml'
+2015-08-14 12:16:16: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/repository.kodi-czsk/changelog.txt' -> 'ftp://ftp.offshoregit.com/repository.kodi-czsk/changelog.txt'
+2015-08-14 12:16:17: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/repository.kodi-czsk/icon.png' -> 'ftp://ftp.offshoregit.com/repository.kodi-czsk/icon.png'
+2015-08-14 12:16:17: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/repository.kodi-czsk/LICENSE.txt' -> 'ftp://ftp.offshoregit.com/repository.kodi-czsk/LICENSE.txt'
+2015-08-14 12:16:20: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/repository.kodi-czsk/repository.kodi-czsk-1.0.2.zip' -> 'ftp://ftp.offshoregit.com/repository.kodi-czsk/repository.kodi-czsk-1.0.2.zip'
+2015-08-14 12:16:20: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/repository.natko1412/addon.xml' -> 'ftp://ftp.offshoregit.com/repository.natko1412/addon.xml'
+2015-08-14 12:16:21: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/repository.natko1412/repository.natko1412-1.0.0.zip' -> 'ftp://ftp.offshoregit.com/repository.natko1412/repository.natko1412-1.0.0.zip'
+2015-08-14 12:16:21: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/repository.natko1412-1.0.0.zip' -> 'ftp://ftp.offshoregit.com/repository.natko1412-1.0.0.zip'
+2015-08-14 12:16:21: /zips/plugin.image.garfield_comic/addon.py: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.image.garfield_comic/addon.xml: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.image.garfield_comic/changelog.txt: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.image.garfield_comic/icon.png: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.image.garfield_comic/LICENSE.txt: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.image.garfield_comic/plugin.image.garfield_comic-1.0.0.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/addon.xml: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/changelog.txt: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/commondownloader.py: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/commondownloader.pyo: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/default.py: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/functions.py: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/functions.pyo: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/icon.png: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/LICENSE.txt: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.6.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.61.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.62.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.63.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.7.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.71.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.8.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.81.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.9.1.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.9.2.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.9.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.croatia_od/resources/settings.xml: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.filmovita/addon.xml: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.filmovita/changelog.txt: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.filmovita/default.py: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.filmovita/icon.png: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.filmovita/LICENSE.txt: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.filmovita/plugin.video.filmovita-0.1.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.filmovita/plugin.video.filmovita-0.2.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.filmovita/plugin.video.filmovita-0.21.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.filmovita/plugin.video.filmovita-0.5.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.filmovita/plugin.video.filmovita-0.6.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.filmovita/plugin.video.filmovita-0.7.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.footballking/addon.xml: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.footballking/changelog.txt: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.footballking/default.py: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.footballking/icon.png: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.footballking/LICENSE.txt: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.footballking/plugin.video.footballking-0.0.1.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/addon.xml: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/changelog.txt: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/commondownloader.py: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/commondownloader.pyo: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/default.py: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/fanart.jpg: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/icon.png: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/LICENSE.txt: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.2.0.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.2.5.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.2.51.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.3.1.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.3.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.4.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-2.0.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/resources/media/nba_date.jpg: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/resources/media/nba_full_games.jpg: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/resources/media/nba_games.jpg: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/resources/media/nba_month.jpg: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/resources/media/nba_nbacom.jpg: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/resources/media/nba_next.jpg: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/resources/media/nba_other.jpg: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/resources/media/nba_playlists.jpg: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/resources/media/nba_search.jpg: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/resources/media/nba_teams.jpg: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/resources/media/nba_youtube.jpg: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.nbafullgames/resources/settings.xml: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.pftvso/addon.xml: unresolved conflict results in No Copy
+2015-08-14 12:16:21: /zips/plugin.video.pftvso/changelog.txt: unresolved conflict results in No Copy
+2015-08-14 12:16:22: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/commondownloader.py' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/commondownloader.py'
+2015-08-14 12:16:23: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/commondownloader.pyo' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/commondownloader.pyo'
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/default.py: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/fanart.jpg: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icon.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icons/simple/All_Shows.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icons/simple/AZ.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icons/simple/Favourites.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icons/simple/Genre.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icons/simple/icon.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icons/simple/Last_24_Hours.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icons/simple/Last_3_Days.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icons/simple/Last_7_Days.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icons/simple/Last_90_Days.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icons/simple/Latest_Added.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icons/simple/Movies.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icons/simple/Next.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icons/simple/Popular.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icons/simple/Search.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icons/simple/Settings.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icons/simple/This_Month.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icons/simple/TV_Shows.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icons/simple/Upcoming.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/icons/simple/Year.png: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/pftvso.py: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/pftvso.pyo: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.1.rar: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.1.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.2.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.3.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.4.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:23: /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.5.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:38: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/plugin.video.pftvso-0.1.0.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/plugin.video.pftvso-0.1.0.zip'
+2015-08-14 12:16:38: /zips/plugin.video.pftvso/resources/settings.xml: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.traktus/addon.xml: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.traktus/changelog.txt: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.traktus/default.py: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.traktus/LICENSE.txt: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.traktus/plugin.video.traktus-0.0.1~alpha1.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.traktus/resources/settings.xml: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.ytchannels/addon.xml: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.ytchannels/changelog.txt: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.ytchannels/default.py: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.ytchannels/icon.png: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.ytchannels/LICENSE.txt: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.1.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.2.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.21.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.22.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.3.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.30.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.31.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.0.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.1.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.2.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.3.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.4.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/plugin.video.ytchannels/resources/settings.xml: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/repository.kodi-czsk/addon.xml: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/repository.kodi-czsk/changelog.txt: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/repository.kodi-czsk/icon.png: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/repository.kodi-czsk/LICENSE.txt: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/repository.kodi-czsk/repository.kodi-czsk-1.0.2.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/repository.natko1412/addon.xml: unresolved conflict results in No Copy
+2015-08-14 12:16:38: /zips/repository.natko1412/repository.natko1412-1.0.0.zip: unresolved conflict results in No Copy
+2015-08-14 12:16:39: == Sync Complete. Time: 00:10:15, Speed: 18,9 KB/s, OK: 254, Errors: 0, Conflicts: 189
+2015-08-14 12:16:39: 

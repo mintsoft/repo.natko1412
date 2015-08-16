@@ -1,0 +1,578 @@
+2015-08-14 12:16:48: -- Analysis Started by User
+2015-08-14 12:16:55: /plugin.video.nbafullgames/addon.xml: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/changelog.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/commondownloader.py: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/commondownloader.pyo: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/default.py: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/fanart.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/icon.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/LICENSE.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/plugin.video.nbafullgames-2.0.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/resources/media/nba_date.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/resources/media/nba_full_games.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/resources/media/nba_games.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/resources/media/nba_month.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/resources/media/nba_nbacom.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/resources/media/nba_next.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/resources/media/nba_other.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/resources/media/nba_playlists.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/resources/media/nba_search.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/resources/media/nba_teams.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/resources/media/nba_youtube.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.nbafullgames/resources/settings.xml: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/addon.xml: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/changelog.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/default.py: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/fanart.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icon.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icons/simple/All_Shows.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icons/simple/AZ.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icons/simple/Favourites.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icons/simple/Genre.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icons/simple/icon.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icons/simple/Last_24_Hours.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icons/simple/Last_3_Days.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icons/simple/Last_7_Days.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icons/simple/Last_90_Days.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icons/simple/Latest_Added.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icons/simple/Movies.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icons/simple/Next.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icons/simple/Popular.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icons/simple/Search.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icons/simple/Settings.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icons/simple/This_Month.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icons/simple/TV_Shows.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icons/simple/Upcoming.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/icons/simple/Year.png: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/pftvso.py: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/pftvso.pyo: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/plugin.video.pftvso-0.0.1.rar: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/plugin.video.pftvso-0.0.1.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/plugin.video.pftvso-0.0.2.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/plugin.video.pftvso-0.0.3.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/plugin.video.pftvso-0.0.4.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/plugin.video.pftvso-0.0.5.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /plugin.video.pftvso/resources/settings.xml: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.image.garfield_comic/addon.py: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.image.garfield_comic/addon.xml: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.image.garfield_comic/changelog.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.image.garfield_comic/icon.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.image.garfield_comic/LICENSE.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.image.garfield_comic/plugin.image.garfield_comic-1.0.0.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/addon.xml: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/changelog.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/commondownloader.py: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/commondownloader.pyo: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/default.py: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/functions.py: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/functions.pyo: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/icon.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/LICENSE.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.6.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.61.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.62.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.63.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.7.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.71.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.8.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.81.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.9.1.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.9.2.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.9.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.croatia_od/resources/settings.xml: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.filmovita/addon.xml: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.filmovita/changelog.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.filmovita/default.py: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.filmovita/icon.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.filmovita/LICENSE.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.filmovita/plugin.video.filmovita-0.1.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.filmovita/plugin.video.filmovita-0.2.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.filmovita/plugin.video.filmovita-0.21.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.filmovita/plugin.video.filmovita-0.5.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.filmovita/plugin.video.filmovita-0.6.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.filmovita/plugin.video.filmovita-0.7.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.footballking/addon.xml: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.footballking/changelog.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.footballking/default.py: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.footballking/icon.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.footballking/LICENSE.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.footballking/plugin.video.footballking-0.0.1.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/addon.xml: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/changelog.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/commondownloader.py: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/commondownloader.pyo: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/default.py: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/fanart.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/icon.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/LICENSE.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.2.0.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.2.5.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.2.51.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.3.1.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.3.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.4.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-2.0.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/resources/media/nba_date.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/resources/media/nba_full_games.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/resources/media/nba_games.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/resources/media/nba_month.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/resources/media/nba_nbacom.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/resources/media/nba_next.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/resources/media/nba_other.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/resources/media/nba_playlists.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/resources/media/nba_search.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/resources/media/nba_teams.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/resources/media/nba_youtube.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.nbafullgames/resources/settings.xml: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/addon.xml: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/changelog.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/default.py: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/fanart.jpg: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icon.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icons/simple/All_Shows.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icons/simple/AZ.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icons/simple/Favourites.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icons/simple/Genre.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icons/simple/icon.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icons/simple/Last_24_Hours.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icons/simple/Last_3_Days.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icons/simple/Last_7_Days.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icons/simple/Last_90_Days.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icons/simple/Latest_Added.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icons/simple/Movies.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icons/simple/Next.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icons/simple/Popular.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icons/simple/Search.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icons/simple/Settings.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icons/simple/This_Month.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icons/simple/TV_Shows.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icons/simple/Upcoming.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/icons/simple/Year.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/pftvso.py: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/pftvso.pyo: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.1.rar: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.1.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.2.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.3.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.4.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.5.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.pftvso/resources/settings.xml: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.traktus/addon.xml: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.traktus/changelog.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.traktus/default.py: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.traktus/LICENSE.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.traktus/plugin.video.traktus-0.0.1~alpha1.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.traktus/resources/settings.xml: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.ytchannels/addon.xml: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.ytchannels/changelog.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.ytchannels/default.py: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.ytchannels/icon.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.ytchannels/LICENSE.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.1.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.2.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.21.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.22.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.3.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.30.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.31.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.0.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.1.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.2.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.3.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.4.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/plugin.video.ytchannels/resources/settings.xml: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/repository.kodi-czsk/addon.xml: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/repository.kodi-czsk/changelog.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/repository.kodi-czsk/icon.png: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/repository.kodi-czsk/LICENSE.txt: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/repository.kodi-czsk/repository.kodi-czsk-1.0.2.zip: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/repository.natko1412/addon.xml: Conflict: New files that differ
+2015-08-14 12:16:55: /zips/repository.natko1412/repository.natko1412-1.0.0.zip: Conflict: New files that differ
+2015-08-14 12:16:55: Analyze has finished with Conflicts. Resolve Conflicts by selecting the correct sync direction, then click Sync
+2015-08-14 12:16:55: Changes: 189, Conflicts: 189, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 462
+2015-08-14 12:16:55: -- Analysis Complete. Time 00:00:08, Speed: 57 files/s
+2015-08-14 12:16:55: 
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/addon.xml
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/changelog.txt
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/commondownloader.py
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/commondownloader.pyo
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/default.py
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/fanart.jpg
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/icon.png
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/LICENSE.txt
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/plugin.video.nbafullgames-2.0.zip
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/resources/media/nba_date.jpg
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/resources/media/nba_full_games.jpg
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/resources/media/nba_games.jpg
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/resources/media/nba_month.jpg
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/resources/media/nba_nbacom.jpg
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/resources/media/nba_next.jpg
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/resources/media/nba_other.jpg
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/resources/media/nba_playlists.jpg
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/resources/media/nba_search.jpg
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/resources/media/nba_teams.jpg
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/resources/media/nba_youtube.jpg
+2015-08-14 12:17:26: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.nbafullgames/resources/settings.xml
+2015-08-14 12:17:26: Done.
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/addon.xml
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/changelog.txt
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/default.py
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/fanart.jpg
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icon.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icons/simple/All_Shows.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icons/simple/AZ.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icons/simple/Favourites.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icons/simple/Genre.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icons/simple/icon.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icons/simple/Last_24_Hours.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icons/simple/Last_3_Days.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icons/simple/Last_7_Days.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icons/simple/Last_90_Days.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icons/simple/Latest_Added.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icons/simple/Movies.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icons/simple/Next.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icons/simple/Popular.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icons/simple/Search.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icons/simple/Settings.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icons/simple/This_Month.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icons/simple/TV_Shows.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icons/simple/Upcoming.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/icons/simple/Year.png
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/pftvso.py
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/pftvso.pyo
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/plugin.video.pftvso-0.0.1.rar
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/plugin.video.pftvso-0.0.1.zip
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/plugin.video.pftvso-0.0.2.zip
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/plugin.video.pftvso-0.0.3.zip
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/plugin.video.pftvso-0.0.4.zip
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/plugin.video.pftvso-0.0.5.zip
+2015-08-14 12:17:28: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plugin.video.pftvso/resources/settings.xml
+2015-08-14 12:17:28: Done.
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.image.garfield_comic/addon.py
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.image.garfield_comic/addon.xml
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.image.garfield_comic/changelog.txt
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.image.garfield_comic/icon.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.image.garfield_comic/LICENSE.txt
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.image.garfield_comic/plugin.image.garfield_comic-1.0.0.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/addon.xml
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/changelog.txt
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/commondownloader.py
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/commondownloader.pyo
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/default.py
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/functions.py
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/functions.pyo
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/icon.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/LICENSE.txt
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.6.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.61.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.62.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.63.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.7.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.71.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.8.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.81.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.9.1.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.9.2.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/plugin.video.croatia_od-0.9.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.croatia_od/resources/settings.xml
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.filmovita/addon.xml
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.filmovita/changelog.txt
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.filmovita/default.py
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.filmovita/icon.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.filmovita/LICENSE.txt
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.filmovita/plugin.video.filmovita-0.1.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.filmovita/plugin.video.filmovita-0.2.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.filmovita/plugin.video.filmovita-0.21.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.filmovita/plugin.video.filmovita-0.5.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.filmovita/plugin.video.filmovita-0.6.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.filmovita/plugin.video.filmovita-0.7.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.footballking/addon.xml
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.footballking/changelog.txt
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.footballking/default.py
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.footballking/icon.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.footballking/LICENSE.txt
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.footballking/plugin.video.footballking-0.0.1.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/addon.xml
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/changelog.txt
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/commondownloader.py
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/commondownloader.pyo
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/default.py
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/fanart.jpg
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/icon.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/LICENSE.txt
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.2.0.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.2.5.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.2.51.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.3.1.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.3.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.4.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/plugin.video.nbafullgames-2.0.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/resources/media/nba_date.jpg
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/resources/media/nba_full_games.jpg
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/resources/media/nba_games.jpg
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/resources/media/nba_month.jpg
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/resources/media/nba_nbacom.jpg
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/resources/media/nba_next.jpg
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/resources/media/nba_other.jpg
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/resources/media/nba_playlists.jpg
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/resources/media/nba_search.jpg
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/resources/media/nba_teams.jpg
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/resources/media/nba_youtube.jpg
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.nbafullgames/resources/settings.xml
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/addon.xml
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/changelog.txt
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/default.py
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/fanart.jpg
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icon.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icons/simple/All_Shows.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icons/simple/AZ.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icons/simple/Favourites.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icons/simple/Genre.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icons/simple/icon.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icons/simple/Last_24_Hours.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icons/simple/Last_3_Days.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icons/simple/Last_7_Days.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icons/simple/Last_90_Days.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icons/simple/Latest_Added.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icons/simple/Movies.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icons/simple/Next.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icons/simple/Popular.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icons/simple/Search.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icons/simple/Settings.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icons/simple/This_Month.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icons/simple/TV_Shows.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icons/simple/Upcoming.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/icons/simple/Year.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/pftvso.py
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/pftvso.pyo
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.1.rar
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.1.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.2.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.3.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.4.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/plugin.video.pftvso-0.0.5.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.pftvso/resources/settings.xml
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.traktus/addon.xml
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.traktus/changelog.txt
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.traktus/default.py
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.traktus/LICENSE.txt
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.traktus/plugin.video.traktus-0.0.1~alpha1.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.traktus/resources/settings.xml
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.ytchannels/addon.xml
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.ytchannels/changelog.txt
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.ytchannels/default.py
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.ytchannels/icon.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.ytchannels/LICENSE.txt
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.1.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.2.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.21.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.22.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.3.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.30.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.31.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.0.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.1.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.2.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.3.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.4.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/plugin.video.ytchannels/resources/settings.xml
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/repository.kodi-czsk/addon.xml
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/repository.kodi-czsk/changelog.txt
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/repository.kodi-czsk/icon.png
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/repository.kodi-czsk/LICENSE.txt
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/repository.kodi-czsk/repository.kodi-czsk-1.0.2.zip
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/repository.natko1412/addon.xml
+2015-08-14 12:17:36: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /zips/repository.natko1412/repository.natko1412-1.0.0.zip
+2015-08-14 12:17:36: Done.
+2015-08-14 12:17:39: == Sync Started by User
+2015-08-14 12:17:41: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/addon.xml' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/addon.xml' (User Action)
+2015-08-14 12:17:42: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/changelog.txt' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/changelog.txt' (User Action)
+2015-08-14 12:17:42: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/commondownloader.py' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/commondownloader.py' (User Action)
+2015-08-14 12:17:43: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/commondownloader.pyo' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/commondownloader.pyo' (User Action)
+2015-08-14 12:17:44: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/default.py' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/default.py' (User Action)
+2015-08-14 12:18:06: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/fanart.jpg' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/fanart.jpg' (User Action)
+2015-08-14 12:18:51: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/icon.png' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/icon.png' (User Action)
+2015-08-14 12:18:59: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/LICENSE.txt' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/LICENSE.txt' (User Action)
+2015-08-14 12:21:28: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/plugin.video.nbafullgames-2.0.zip' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/plugin.video.nbafullgames-2.0.zip' (User Action)
+2015-08-14 12:21:33: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/resources/media/nba_date.jpg' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/resources/media/nba_date.jpg' (User Action)
+2015-08-14 12:21:39: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/resources/media/nba_full_games.jpg' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/resources/media/nba_full_games.jpg' (User Action)
+2015-08-14 12:21:49: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/resources/media/nba_games.jpg' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/resources/media/nba_games.jpg' (User Action)
+2015-08-14 12:21:55: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/resources/media/nba_month.jpg' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/resources/media/nba_month.jpg' (User Action)
+2015-08-14 12:22:00: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/resources/media/nba_nbacom.jpg' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/resources/media/nba_nbacom.jpg' (User Action)
+2015-08-14 12:22:08: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/resources/media/nba_next.jpg' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/resources/media/nba_next.jpg' (User Action)
+2015-08-14 12:22:19: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/resources/media/nba_other.jpg' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/resources/media/nba_other.jpg' (User Action)
+2015-08-14 12:22:26: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/resources/media/nba_playlists.jpg' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/resources/media/nba_playlists.jpg' (User Action)
+2015-08-14 12:22:29: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/resources/media/nba_search.jpg' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/resources/media/nba_search.jpg' (User Action)
+2015-08-14 12:22:36: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/resources/media/nba_teams.jpg' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/resources/media/nba_teams.jpg' (User Action)
+2015-08-14 12:22:45: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/resources/media/nba_youtube.jpg' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/resources/media/nba_youtube.jpg' (User Action)
+2015-08-14 12:22:52: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.nbafullgames/resources/settings.xml' -> 'ftp://ftp.offshoregit.com/plugin.video.nbafullgames/resources/settings.xml' (User Action)
+2015-08-14 12:23:00: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/addon.xml' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/addon.xml' (User Action)
+2015-08-14 12:23:05: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/changelog.txt' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/changelog.txt' (User Action)
+2015-08-14 12:23:14: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/default.py' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/default.py' (User Action)
+2015-08-14 12:23:21: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/fanart.jpg' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/fanart.jpg' (User Action)
+2015-08-14 12:23:26: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icon.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icon.png' (User Action)
+2015-08-14 12:23:31: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icons/simple/All_Shows.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icons/simple/All_Shows.png' (User Action)
+2015-08-14 12:23:37: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icons/simple/AZ.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icons/simple/AZ.png' (User Action)
+2015-08-14 12:23:43: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icons/simple/Favourites.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icons/simple/Favourites.png' (User Action)
+2015-08-14 12:23:48: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icons/simple/Genre.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icons/simple/Genre.png' (User Action)
+2015-08-14 12:23:57: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icons/simple/icon.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icons/simple/icon.png' (User Action)
+2015-08-14 12:23:59: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icons/simple/Last_24_Hours.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icons/simple/Last_24_Hours.png' (User Action)
+2015-08-14 12:24:02: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icons/simple/Last_3_Days.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icons/simple/Last_3_Days.png' (User Action)
+2015-08-14 12:24:04: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icons/simple/Last_7_Days.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icons/simple/Last_7_Days.png' (User Action)
+2015-08-14 12:24:07: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icons/simple/Last_90_Days.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icons/simple/Last_90_Days.png' (User Action)
+2015-08-14 12:24:09: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icons/simple/Latest_Added.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icons/simple/Latest_Added.png' (User Action)
+2015-08-14 12:24:11: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icons/simple/Movies.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icons/simple/Movies.png' (User Action)
+2015-08-14 12:24:13: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icons/simple/Next.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icons/simple/Next.png' (User Action)
+2015-08-14 12:24:14: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icons/simple/Popular.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icons/simple/Popular.png' (User Action)
+2015-08-14 12:24:16: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icons/simple/Search.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icons/simple/Search.png' (User Action)
+2015-08-14 12:24:17: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icons/simple/Settings.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icons/simple/Settings.png' (User Action)
+2015-08-14 12:24:18: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icons/simple/This_Month.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icons/simple/This_Month.png' (User Action)
+2015-08-14 12:24:19: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icons/simple/TV_Shows.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icons/simple/TV_Shows.png' (User Action)
+2015-08-14 12:24:20: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icons/simple/Upcoming.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icons/simple/Upcoming.png' (User Action)
+2015-08-14 12:24:20: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/icons/simple/Year.png' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/icons/simple/Year.png' (User Action)
+2015-08-14 12:24:23: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/pftvso.py' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/pftvso.py' (User Action)
+2015-08-14 12:24:26: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/pftvso.pyo' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/pftvso.pyo' (User Action)
+2015-08-14 12:24:37: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/plugin.video.pftvso-0.0.1.rar' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/plugin.video.pftvso-0.0.1.rar' (User Action)
+2015-08-14 12:24:51: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/plugin.video.pftvso-0.0.1.zip' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/plugin.video.pftvso-0.0.1.zip' (User Action)
+2015-08-14 12:25:00: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/plugin.video.pftvso-0.0.2.zip' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/plugin.video.pftvso-0.0.2.zip' (User Action)
+2015-08-14 12:25:09: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/plugin.video.pftvso-0.0.3.zip' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/plugin.video.pftvso-0.0.3.zip' (User Action)
+2015-08-14 12:25:22: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/plugin.video.pftvso-0.0.4.zip' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/plugin.video.pftvso-0.0.4.zip' (User Action)
+2015-08-14 12:25:34: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/plugin.video.pftvso-0.0.5.zip' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/plugin.video.pftvso-0.0.5.zip' (User Action)
+2015-08-14 12:25:35: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/plugin.video.pftvso/resources/settings.xml' -> 'ftp://ftp.offshoregit.com/plugin.video.pftvso/resources/settings.xml' (User Action)
+2015-08-14 12:25:36: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.image.garfield_comic/addon.py' -> 'ftp://ftp.offshoregit.com/zips/plugin.image.garfield_comic/addon.py' (User Action)
+2015-08-14 12:25:37: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.image.garfield_comic/addon.xml' -> 'ftp://ftp.offshoregit.com/zips/plugin.image.garfield_comic/addon.xml' (User Action)
+2015-08-14 12:25:37: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.image.garfield_comic/changelog.txt' -> 'ftp://ftp.offshoregit.com/zips/plugin.image.garfield_comic/changelog.txt' (User Action)
+2015-08-14 12:25:38: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.image.garfield_comic/icon.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.image.garfield_comic/icon.png' (User Action)
+2015-08-14 12:25:38: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.image.garfield_comic/LICENSE.txt' -> 'ftp://ftp.offshoregit.com/zips/plugin.image.garfield_comic/LICENSE.txt' (User Action)
+2015-08-14 12:25:39: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.image.garfield_comic/plugin.image.garfield_comic-1.0.0.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.image.garfield_comic/plugin.image.garfield_comic-1.0.0.zip' (User Action)
+2015-08-14 12:25:40: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/addon.xml' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/addon.xml' (User Action)
+2015-08-14 12:25:40: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/changelog.txt' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/changelog.txt' (User Action)
+2015-08-14 12:25:41: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/commondownloader.py' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/commondownloader.py' (User Action)
+2015-08-14 12:25:42: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/commondownloader.pyo' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/commondownloader.pyo' (User Action)
+2015-08-14 12:25:45: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/default.py' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/default.py' (User Action)
+2015-08-14 12:25:45: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/functions.py' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/functions.py' (User Action)
+2015-08-14 12:25:46: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/functions.pyo' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/functions.pyo' (User Action)
+2015-08-14 12:25:47: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/icon.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/icon.png' (User Action)
+2015-08-14 12:25:48: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/LICENSE.txt' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/LICENSE.txt' (User Action)
+2015-08-14 12:25:50: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.6.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.6.zip' (User Action)
+2015-08-14 12:25:51: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.61.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.61.zip' (User Action)
+2015-08-14 12:25:53: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.62.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.62.zip' (User Action)
+2015-08-14 12:25:55: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.63.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.63.zip' (User Action)
+2015-08-14 12:25:56: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.7.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.7.zip' (User Action)
+2015-08-14 12:25:59: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.71.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.71.zip' (User Action)
+2015-08-14 12:26:00: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.8.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.8.zip' (User Action)
+2015-08-14 12:27:09: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.81.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.81.zip' (User Action)
+2015-08-14 12:27:12: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.9.1.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.9.1.zip' (User Action)
+2015-08-14 12:27:14: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.9.2.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.9.2.zip' (User Action)
+2015-08-14 12:27:16: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.9.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/plugin.video.croatia_od-0.9.zip' (User Action)
+2015-08-14 12:27:19: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.croatia_od/resources/settings.xml' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.croatia_od/resources/settings.xml' (User Action)
+2015-08-14 12:27:19: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.filmovita/addon.xml' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.filmovita/addon.xml' (User Action)
+2015-08-14 12:27:20: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.filmovita/changelog.txt' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.filmovita/changelog.txt' (User Action)
+2015-08-14 12:27:21: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.filmovita/default.py' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.filmovita/default.py' (User Action)
+2015-08-14 12:27:41: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.filmovita/icon.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.filmovita/icon.png' (User Action)
+2015-08-14 12:27:42: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.filmovita/LICENSE.txt' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.filmovita/LICENSE.txt' (User Action)
+2015-08-14 12:28:04: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.filmovita/plugin.video.filmovita-0.1.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.filmovita/plugin.video.filmovita-0.1.zip' (User Action)
+2015-08-14 12:28:26: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.filmovita/plugin.video.filmovita-0.2.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.filmovita/plugin.video.filmovita-0.2.zip' (User Action)
+2015-08-14 12:28:46: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.filmovita/plugin.video.filmovita-0.21.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.filmovita/plugin.video.filmovita-0.21.zip' (User Action)
+2015-08-14 12:29:08: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.filmovita/plugin.video.filmovita-0.5.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.filmovita/plugin.video.filmovita-0.5.zip' (User Action)
+2015-08-14 12:29:30: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.filmovita/plugin.video.filmovita-0.6.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.filmovita/plugin.video.filmovita-0.6.zip' (User Action)
+2015-08-14 12:29:54: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.filmovita/plugin.video.filmovita-0.7.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.filmovita/plugin.video.filmovita-0.7.zip' (User Action)
+2015-08-14 12:29:54: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.footballking/addon.xml' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.footballking/addon.xml' (User Action)
+2015-08-14 12:29:55: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.footballking/changelog.txt' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.footballking/changelog.txt' (User Action)
+2015-08-14 12:29:56: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.footballking/default.py' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.footballking/default.py' (User Action)
+2015-08-14 12:30:45: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.footballking/icon.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.footballking/icon.png' (User Action)
+2015-08-14 12:30:48: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.footballking/LICENSE.txt' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.footballking/LICENSE.txt' (User Action)
+2015-08-14 12:31:21: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.footballking/plugin.video.footballking-0.0.1.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.footballking/plugin.video.footballking-0.0.1.zip' (User Action)
+2015-08-14 12:31:26: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/addon.xml' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/addon.xml' (User Action)
+2015-08-14 12:31:27: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/changelog.txt' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/changelog.txt' (User Action)
+2015-08-14 12:31:28: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/commondownloader.py' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/commondownloader.py' (User Action)
+2015-08-14 12:31:28: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/commondownloader.pyo' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/commondownloader.pyo' (User Action)
+2015-08-14 12:31:29: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/default.py' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/default.py' (User Action)
+2015-08-14 12:32:04: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/fanart.jpg' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/fanart.jpg' (User Action)
+2015-08-14 12:32:36: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/icon.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/icon.png' (User Action)
+2015-08-14 12:32:37: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/LICENSE.txt' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/LICENSE.txt' (User Action)
+2015-08-14 12:32:57: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.2.0.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.2.0.zip' (User Action)
+2015-08-14 12:33:17: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.2.5.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.2.5.zip' (User Action)
+2015-08-14 12:33:35: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.2.51.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.2.51.zip' (User Action)
+2015-08-14 12:33:52: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.3.1.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.3.1.zip' (User Action)
+2015-08-14 12:34:08: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.3.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.3.zip' (User Action)
+2015-08-14 12:34:25: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.4.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/plugin.video.nbafullgames-1.4.zip' (User Action)
+2015-08-14 12:36:21: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/plugin.video.nbafullgames-2.0.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/plugin.video.nbafullgames-2.0.zip' (User Action)
+2015-08-14 12:36:26: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/resources/media/nba_date.jpg' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/resources/media/nba_date.jpg' (User Action)
+2015-08-14 12:36:31: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/resources/media/nba_full_games.jpg' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/resources/media/nba_full_games.jpg' (User Action)
+2015-08-14 12:36:35: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/resources/media/nba_games.jpg' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/resources/media/nba_games.jpg' (User Action)
+2015-08-14 12:36:40: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/resources/media/nba_month.jpg' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/resources/media/nba_month.jpg' (User Action)
+2015-08-14 12:36:45: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/resources/media/nba_nbacom.jpg' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/resources/media/nba_nbacom.jpg' (User Action)
+2015-08-14 12:36:49: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/resources/media/nba_next.jpg' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/resources/media/nba_next.jpg' (User Action)
+2015-08-14 12:36:55: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/resources/media/nba_other.jpg' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/resources/media/nba_other.jpg' (User Action)
+2015-08-14 12:36:59: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/resources/media/nba_playlists.jpg' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/resources/media/nba_playlists.jpg' (User Action)
+2015-08-14 12:37:07: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/resources/media/nba_search.jpg' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/resources/media/nba_search.jpg' (User Action)
+2015-08-14 12:37:11: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/resources/media/nba_teams.jpg' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/resources/media/nba_teams.jpg' (User Action)
+2015-08-14 12:37:15: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/resources/media/nba_youtube.jpg' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/resources/media/nba_youtube.jpg' (User Action)
+2015-08-14 12:37:15: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.nbafullgames/resources/settings.xml' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.nbafullgames/resources/settings.xml' (User Action)
+2015-08-14 12:37:17: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/addon.xml' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/addon.xml' (User Action)
+2015-08-14 12:37:18: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/changelog.txt' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/changelog.txt' (User Action)
+2015-08-14 12:37:20: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/default.py' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/default.py' (User Action)
+2015-08-14 12:37:22: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/fanart.jpg' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/fanart.jpg' (User Action)
+2015-08-14 12:37:27: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icon.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icon.png' (User Action)
+2015-08-14 12:37:28: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icons/simple/All_Shows.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icons/simple/All_Shows.png' (User Action)
+2015-08-14 12:37:30: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icons/simple/AZ.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icons/simple/AZ.png' (User Action)
+2015-08-14 12:37:31: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icons/simple/Favourites.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icons/simple/Favourites.png' (User Action)
+2015-08-14 12:37:32: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icons/simple/Genre.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icons/simple/Genre.png' (User Action)
+2015-08-14 12:37:32: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icons/simple/icon.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icons/simple/icon.png' (User Action)
+2015-08-14 12:37:33: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icons/simple/Last_24_Hours.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icons/simple/Last_24_Hours.png' (User Action)
+2015-08-14 12:37:34: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icons/simple/Last_3_Days.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icons/simple/Last_3_Days.png' (User Action)
+2015-08-14 12:37:35: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icons/simple/Last_7_Days.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icons/simple/Last_7_Days.png' (User Action)
+2015-08-14 12:37:36: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icons/simple/Last_90_Days.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icons/simple/Last_90_Days.png' (User Action)
+2015-08-14 12:37:36: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icons/simple/Latest_Added.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icons/simple/Latest_Added.png' (User Action)
+2015-08-14 12:37:37: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icons/simple/Movies.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icons/simple/Movies.png' (User Action)
+2015-08-14 12:37:38: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icons/simple/Next.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icons/simple/Next.png' (User Action)
+2015-08-14 12:37:39: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icons/simple/Popular.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icons/simple/Popular.png' (User Action)
+2015-08-14 12:37:39: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icons/simple/Search.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icons/simple/Search.png' (User Action)
+2015-08-14 12:37:40: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icons/simple/Settings.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icons/simple/Settings.png' (User Action)
+2015-08-14 12:37:41: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icons/simple/This_Month.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icons/simple/This_Month.png' (User Action)
+2015-08-14 12:37:42: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icons/simple/TV_Shows.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icons/simple/TV_Shows.png' (User Action)
+2015-08-14 12:37:42: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icons/simple/Upcoming.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icons/simple/Upcoming.png' (User Action)
+2015-08-14 12:37:43: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/icons/simple/Year.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/icons/simple/Year.png' (User Action)
+2015-08-14 12:37:44: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/pftvso.py' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/pftvso.py' (User Action)
+2015-08-14 12:37:45: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/pftvso.pyo' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/pftvso.pyo' (User Action)
+2015-08-14 12:37:53: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/plugin.video.pftvso-0.0.1.rar' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/plugin.video.pftvso-0.0.1.rar' (User Action)
+2015-08-14 12:38:06: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/plugin.video.pftvso-0.0.1.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/plugin.video.pftvso-0.0.1.zip' (User Action)
+2015-08-14 12:38:16: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/plugin.video.pftvso-0.0.2.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/plugin.video.pftvso-0.0.2.zip' (User Action)
+2015-08-14 12:38:31: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/plugin.video.pftvso-0.0.3.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/plugin.video.pftvso-0.0.3.zip' (User Action)
+2015-08-14 12:39:03: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/plugin.video.pftvso-0.0.4.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/plugin.video.pftvso-0.0.4.zip' (User Action)
+2015-08-14 12:39:26: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/plugin.video.pftvso-0.0.5.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/plugin.video.pftvso-0.0.5.zip' (User Action)
+2015-08-14 12:39:28: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.pftvso/resources/settings.xml' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.pftvso/resources/settings.xml' (User Action)
+2015-08-14 12:39:30: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.traktus/addon.xml' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.traktus/addon.xml' (User Action)
+2015-08-14 12:39:30: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.traktus/changelog.txt' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.traktus/changelog.txt' (User Action)
+2015-08-14 12:39:31: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.traktus/default.py' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.traktus/default.py' (User Action)
+2015-08-14 12:39:32: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.traktus/LICENSE.txt' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.traktus/LICENSE.txt' (User Action)
+2015-08-14 12:39:33: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.traktus/plugin.video.traktus-0.0.1~alpha1.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.traktus/plugin.video.traktus-0.0.1~alpha1.zip' (User Action)
+2015-08-14 12:39:34: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.traktus/resources/settings.xml' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.traktus/resources/settings.xml' (User Action)
+2015-08-14 12:39:36: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.ytchannels/addon.xml' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.ytchannels/addon.xml' (User Action)
+2015-08-14 12:39:37: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.ytchannels/changelog.txt' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.ytchannels/changelog.txt' (User Action)
+2015-08-14 12:39:40: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.ytchannels/default.py' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.ytchannels/default.py' (User Action)
+2015-08-14 12:39:41: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.ytchannels/icon.png' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.ytchannels/icon.png' (User Action)
+2015-08-14 12:39:42: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.ytchannels/LICENSE.txt' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.ytchannels/LICENSE.txt' (User Action)
+2015-08-14 12:39:43: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.1.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.1.zip' (User Action)
+2015-08-14 12:39:44: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.2.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.2.zip' (User Action)
+2015-08-14 12:39:44: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.21.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.21.zip' (User Action)
+2015-08-14 12:39:45: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.22.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.22.zip' (User Action)
+2015-08-14 12:39:46: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.3.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.3.zip' (User Action)
+2015-08-14 12:39:47: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.30.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.30.zip' (User Action)
+2015-08-14 12:39:48: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.31.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.0.31.zip' (User Action)
+2015-08-14 12:39:50: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.0.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.0.zip' (User Action)
+2015-08-14 12:39:50: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.1.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.1.zip' (User Action)
+2015-08-14 12:39:51: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.2.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.2.zip' (User Action)
+2015-08-14 12:39:52: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.3.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.3.zip' (User Action)
+2015-08-14 12:39:54: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.4.zip' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.ytchannels/plugin.video.ytchannels-0.1.4.zip' (User Action)
+2015-08-14 12:39:56: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/plugin.video.ytchannels/resources/settings.xml' -> 'ftp://ftp.offshoregit.com/zips/plugin.video.ytchannels/resources/settings.xml' (User Action)
+2015-08-14 12:39:58: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/repository.kodi-czsk/addon.xml' -> 'ftp://ftp.offshoregit.com/zips/repository.kodi-czsk/addon.xml' (User Action)
+2015-08-14 12:39:59: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/repository.kodi-czsk/changelog.txt' -> 'ftp://ftp.offshoregit.com/zips/repository.kodi-czsk/changelog.txt' (User Action)
+2015-08-14 12:40:00: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/repository.kodi-czsk/icon.png' -> 'ftp://ftp.offshoregit.com/zips/repository.kodi-czsk/icon.png' (User Action)
+2015-08-14 12:40:01: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/repository.kodi-czsk/LICENSE.txt' -> 'ftp://ftp.offshoregit.com/zips/repository.kodi-czsk/LICENSE.txt' (User Action)
+2015-08-14 12:40:02: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/repository.kodi-czsk/repository.kodi-czsk-1.0.2.zip' -> 'ftp://ftp.offshoregit.com/zips/repository.kodi-czsk/repository.kodi-czsk-1.0.2.zip' (User Action)
+2015-08-14 12:40:03: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/repository.natko1412/addon.xml' -> 'ftp://ftp.offshoregit.com/zips/repository.natko1412/addon.xml' (User Action)
+2015-08-14 12:40:04: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/repository.natko1412/repository.natko1412-1.0.0.zip' -> 'ftp://ftp.offshoregit.com/zips/repository.natko1412/repository.natko1412-1.0.0.zip' (User Action)
+2015-08-14 12:40:05: == Sync Complete. Time: 00:22:27, Speed: 19,8 KB/s, OK: 189, Errors: 0
+2015-08-14 12:40:05: 
