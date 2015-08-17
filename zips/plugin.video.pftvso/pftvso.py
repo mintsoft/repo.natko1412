@@ -257,6 +257,7 @@ def get_seasons(url):
 def get_episodes(url):
 	html=read_url(url)
 	soup=bs(html)
+	
 	trs=soup.findAll('tr')
 	out=[]
 	aa=len(trs)-1
@@ -264,75 +265,76 @@ def get_episodes(url):
 	for i in range(aa,-1,-1):
 		link=trs[i].find('a')['href']
 		name=trs[i].find('a').getText()
-		try:
-			s_ind=name.index('Season')
-			season=name[s_ind+7:s_ind+8]
-			if name[s_ind+8].isdigit():
-				season=name[s_ind+7:s_ind+9]
-			if name[s_ind+9].isdigit():
-				season=name[s_ind+7:s_ind+10]
-			if name[s_ind+10].isdigit():
-				season=name[s_ind+7:s_ind+11]
-			if name[s_ind+11].isdigit():
-				season=name[s_ind+7:s_ind+12]
-		except:
-			s_ind=name.index('season')
-			season=name[s_ind+7:s_ind+8]
-			if name[s_ind+8].isdigit():
-				season=name[s_ind+7:s_ind+9]
-			if name[s_ind+9].isdigit():
-				season=name[s_ind+7:s_ind+10]
-			if name[s_ind+10].isdigit():
-				season=name[s_ind+7:s_ind+11]
-			if name[s_ind+11].isdigit():
-				season=name[s_ind+7:s_ind+12]
-
-		try:
-		
-			s_ind=name.index('Episode')
-			episode=name[s_ind+8:s_ind+9]
+		if 'reclame' not in link:
 			try:
+				s_ind=name.index('Season')
+				season=name[s_ind+7:s_ind+8]
+				if name[s_ind+8].isdigit():
+					season=name[s_ind+7:s_ind+9]
 				if name[s_ind+9].isdigit():
-					episode=name[s_ind+8:s_ind+10]
-			except:
-				pass
-			try:
+					season=name[s_ind+7:s_ind+10]
 				if name[s_ind+10].isdigit():
-					episode=name[s_ind+8:s_ind+11]
-			except:
-				pass
-			try:
+					season=name[s_ind+7:s_ind+11]
 				if name[s_ind+11].isdigit():
-					episode=name[s_ind+8:s_ind+12]
+					season=name[s_ind+7:s_ind+12]
 			except:
-				pass
-
-		except:
-			s_ind=name.index('episode')
-			episode=name[s_ind+8:s_ind+9]
-			try:
+				s_ind=name.index('season')
+				season=name[s_ind+7:s_ind+8]
+				if name[s_ind+8].isdigit():
+					season=name[s_ind+7:s_ind+9]
 				if name[s_ind+9].isdigit():
-					episode=name[s_ind+8:s_ind+10]
-			except:
-				pass
-			try:
+					season=name[s_ind+7:s_ind+10]
 				if name[s_ind+10].isdigit():
-					episode=name[s_ind+8:s_ind+11]
-			except:
-				pass
-			try:
+					season=name[s_ind+7:s_ind+11]
 				if name[s_ind+11].isdigit():
-					episode=name[s_ind+8:s_ind+12]
+					season=name[s_ind+7:s_ind+12]
+
+			try:
+			
+				s_ind=name.index('Episode')
+				episode=name[s_ind+8:s_ind+9]
+				try:
+					if name[s_ind+9].isdigit():
+						episode=name[s_ind+8:s_ind+10]
+				except:
+					pass
+				try:
+					if name[s_ind+10].isdigit():
+						episode=name[s_ind+8:s_ind+11]
+				except:
+					pass
+				try:
+					if name[s_ind+11].isdigit():
+						episode=name[s_ind+8:s_ind+12]
+				except:
+					pass
+
 			except:
-				pass
+				s_ind=name.index('episode')
+				episode=name[s_ind+8:s_ind+9]
+				try:
+					if name[s_ind+9].isdigit():
+						episode=name[s_ind+8:s_ind+10]
+				except:
+					pass
+				try:
+					if name[s_ind+10].isdigit():
+						episode=name[s_ind+8:s_ind+11]
+				except:
+					pass
+				try:
+					if name[s_ind+11].isdigit():
+						episode=name[s_ind+8:s_ind+12]
+				except:
+					pass
 
-		try:
-			s_ind=name.index('Season')
-			show=name[:s_ind-1]
+			try:
+				s_ind=name.index('Season')
+				show=name[:s_ind-1]
 
-		except:
-			s_ind=name.index('season')
-			show=name[:s_ind-1]
+			except:
+				s_ind=name.index('season')
+				show=name[:s_ind-1]
 
 
 
@@ -340,7 +342,27 @@ def get_episodes(url):
 		
 
 		out+=[[show,season,episode,link]]
-	return out
+	
+		
+		
+	try:
+		tag=soup.find('div',{'class':'pagination'})
+
+	except:
+		tag=None
+	if tag==None:
+		pages=False
+	else:
+		pages=True
+	if pages==True:
+		try:
+			lis=tag.find('li',{'class':'current'})
+			next_page=lis.findNext('li').find('a')['href']
+		except:
+			next_page='last'
+	else:
+		next_page=False
+	return out,next_page
 
 def get_latest_movies(page):
 	if page!='1':
@@ -417,102 +439,10 @@ def get_movies_genre(genre,page):
 
 
 
-def search(query,type):
-	if type=='tv':
-		url= 'http://projectfreetv.so/search/' + urllib.quote(query)
-		html=read_url(url)
-		soup=bs(html)
-		trs=soup.findAll('tr')
-		out=[]
-		aa=len(trs)-1
-		if 'search' in url:
-			aa=aa-2
-		for i in range(1,aa):
-			link=trs[i].find('a')['href']
-			name=trs[i].find('a').getText()
-
-			try:
-				s_ind=name.index('Season')
-				season=name[s_ind+7:s_ind+8]
-				if name[s_ind+8].isdigit():
-					season=name[s_ind+7:s_ind+9]
-				if name[s_ind+9].isdigit():
-					season=name[s_ind+7:s_ind+10]
-				if name[s_ind+10].isdigit():
-					season=name[s_ind+7:s_ind+11]
-				if name[s_ind+11].isdigit():
-					season=name[s_ind+7:s_ind+12]
-			except:
-				s_ind=name.index('season')
-				season=name[s_ind+7:s_ind+8]
-				if name[s_ind+8].isdigit():
-					season=name[s_ind+7:s_ind+9]
-				if name[s_ind+9].isdigit():
-					season=name[s_ind+7:s_ind+10]
-				if name[s_ind+10].isdigit():
-					season=name[s_ind+7:s_ind+11]
-				if name[s_ind+11].isdigit():
-					season=name[s_ind+7:s_ind+12]
-
-			try:
+def search(url):
+	
+	
 		
-				s_ind=name.index('Episode')
-				episode=name[s_ind+8:s_ind+9]
-				try:
-					if name[s_ind+9].isdigit():
-						episode=name[s_ind+8:s_ind+10]
-				except:
-					pass
-				try:
-					if name[s_ind+10].isdigit():
-						episode=name[s_ind+8:s_ind+11]
-				except:
-					pass
-				try:
-					if name[s_ind+11].isdigit():
-						episode=name[s_ind+8:s_ind+12]
-				except:
-					pass
-
-			except:
-				s_ind=name.index('episode')
-				episode=name[s_ind+8:s_ind+9]
-				try:
-					if name[s_ind+9].isdigit():
-						episode=name[s_ind+8:s_ind+10]
-				except:
-					pass
-				try:
-					if name[s_ind+10].isdigit():
-						episode=name[s_ind+8:s_ind+11]
-				except:
-					pass
-				try:
-					if name[s_ind+11].isdigit():
-						episode=name[s_ind+8:s_ind+12]
-				except:
-					pass
-
-			try:
-				s_ind=name.index('Season')
-				show=name[:s_ind-1]
-
-			except:
-				s_ind=name.index('season')
-				show=name[:s_ind-1]
-
-
-
-
-		
-
-			out+=[[show,season,episode,link]]
-		return out
-
-
-
-	elif type=='movie':
-		url='http://projectfreetv.so/movies/search/' + urllib.quote(query)
 
 		html=read_url(url)
 		soup=bs(html)
@@ -530,7 +460,26 @@ def search(query,type):
 			title=title[:b_ind-1]
 
 			out+=[[title,year,thumb,link]]
-		return out
+
+		try:
+			tag=soup.find('div',{'class':'pagination'})
+
+		except:
+			tag=None
+		if tag==None:
+			pages=False
+		else:
+			pages=True
+		if pages==True:
+			try:
+				lis=tag.find('li',{'class':'current'})
+				next_page=lis.findNext('li').find('a')['href']
+			except:
+				next_page='last'
+		else:
+			next_page=False
+		return out,next_page
+		
 
 
 def get_link(url):
@@ -564,3 +513,27 @@ def get_show_img(url):
 	soup=bs(html)
 	return soup.find('div',{'style':'float:left; margin-right:20px;'}).find('img')['src']
 
+def search_shows(query):
+	words=query.encode('ascii','ignore').lower().split(' ')
+	shows= get_all_shows()
+	br=0
+	pom=0
+	out=[]
+	for show in shows:
+		for word in words:
+
+			if word.encode('ascii','ignore') in show[0].lower():
+				br+=1
+
+		if br>0:
+			tup=(br,pom)
+			out.append(tup)
+		br=0
+		pom+=1
+	from operator import itemgetter
+	out=sorted(out,key=lambda x: x[0], reverse=True)
+	outt=[]
+	for i in range(len(out)):
+		outt+=[shows[out[i][1]]]
+
+	return outt

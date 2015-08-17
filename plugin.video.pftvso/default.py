@@ -8,7 +8,7 @@ import urllib2
 import sqlite3
 import re
 import os
-import json
+import json,time
 from BeautifulSoup import BeautifulSoup as bs
 from pftvso import *
 import xbmcvfs
@@ -30,6 +30,7 @@ except:
 ###########################################################################################################################################################
 ###########################################################################################################################################################
 
+
 addonID=xbmcaddon.Addon().getAddonInfo("id")
 db_dir = xbmc.translatePath("special://profile/addon_data/"+addonID)
 db_path = os.path.join(db_dir, 'favourites.db')
@@ -40,7 +41,17 @@ db=sqlite3.connect(db_path)
 
 addon = Addon('plugin.video.pftvso', sys.argv)
 AddonPath = addon.get_path()
-IconPath = AddonPath + "/icons/simple/"
+
+
+my_addon = xbmcaddon.Addon()
+
+theme= my_addon.getSetting('theme')
+    
+if theme=='0':  IconPath = AddonPath + "/icons/pftv/"
+else:   IconPath = AddonPath + "/icons/simple/"
+
+
+
 downloadPath = addon.get_setting('download_folder')
 
 def icon_path(filename):
@@ -50,6 +61,7 @@ def icon_path(filename):
 ###########################################################################################################################################################
 ###########################################################################################################################################################
 ###########################################################################################################################################################
+
 
 
 
@@ -194,7 +206,36 @@ def get_favourite_movies():
             favs+=[folder]
     return favs
 
-
+def add_search_query(query,type):
+    with db:
+        cur = db.cursor()    
+        cur.execute("begin") 
+        cur.execute("create table if not exists Search_history (type TEXT, query TEXT)")    
+        db.commit()
+        cur.execute("INSERT INTO Search_history(type,query) VALUES (?,?);",(type,query))
+        db.commit()
+        cur.close()
+    return
+def get_search_history(type):
+    with db:
+        cur = db.cursor()
+        cur.execute("begin")    
+        cur.execute("create table if not exists Search_history (type TEXT, query TEXT)")    
+        db.commit() 
+        cur.execute("SELECT query FROM Search_history WHERE type = ?",(type,))
+        rows = cur.fetchall()
+        cur.close()
+        his=[]
+        for i in range (len(rows)):
+            folder=rows[i][0]
+            his+=[folder]
+    return his
+def delete_history(type):
+    cur = db.cursor()  
+    cur.execute("begin")  
+    cur.execute("DELETE FROM Search_history WHERE type = ?",(type,))
+    db.commit()
+    cur.close()
 def delete_all_movie_favs():
     with db:
         cur = db.cursor()
@@ -294,6 +335,7 @@ if play:
     dicti=urlparse.parse_qs(sys.argv[2][1:])
     link=dicti['url'][0]
     type=dicti['type'][0]
+    title=dicti['title'][0]
     links=get_linkss(link)
     links=sort_links(links)
 
@@ -327,18 +369,28 @@ if play:
             resolved=urlresolver.resolve(link)
 
             if resolved:
+                if my_addon.getSetting('axel') != 'false':
+                    download_name = title
+                    import axelproxy as proxy
+                    axelhelper = proxy.ProxyHelper()
+                    resolved, download_id = axelhelper.create_proxy_url(resolved, name=download_name)
+                
                 addon.resolve_url(resolved)
     else:
         import urlresolver
         for i in range(len(links)):
             link=get_link(links[i][1])
-            stream_url = urlresolver.HostedMediaFile(url=link).resolve()
+            resolved=urlresolver.resolve(link)
 
-            if stream_url:
-                addon.resolve_url(stream_url)
+            if resolved:
+                if my_addon.getSetting('axel') != 'false':
+                    download_name = title
+                    import axelproxy as proxy
+                    axelhelper = proxy.ProxyHelper()
+                    resolved, download_id = axelhelper.create_proxy_url(resolved, name=download_name)
+                
+                addon.resolve_url(resolved)
                 break
-            else:
-                pass
            
 
 
@@ -348,26 +400,31 @@ if play:
 if mode is None:
     url = build_url({'mode': 'movies', 'foldername': 'movies'})
     li = xbmcgui.ListItem('Movies', iconImage=icon_path('Movies.png'))
+    li.setArt({ 'fanart':icon_path('fanart.jpg')})
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
 
     url = build_url({'mode': 'tv', 'foldername': 'shows'})
     li = xbmcgui.ListItem('TV Shows', iconImage=icon_path('TV_Shows.png'))
+    li.setArt({ 'fanart':icon_path('fanart.jpg')})
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
 
     url = build_url({'mode': 'favs', 'foldername': 'favs'})
     li = xbmcgui.ListItem('Favourites', iconImage=icon_path('Favourites.png'))
+    li.setArt({ 'fanart':icon_path('fanart.jpg')})
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
 
     url = build_url({'mode': 'search', 'foldername': 'search'})
     li = xbmcgui.ListItem('Search All', iconImage=icon_path('Search.png'))
+    li.setArt({ 'fanart':icon_path('fanart.jpg')})
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
 
     url = build_url({'mode': 'settings'})
     li = xbmcgui.ListItem('Settings', iconImage=icon_path('Settings.png'))
+    li.setArt({ 'fanart':icon_path('fanart.jpg')})
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
 
@@ -383,25 +440,30 @@ if mode is None:
 elif mode[0]=='movies':
     url = build_url({'mode': 'fav_movies', 'foldername': 'favs'})
     li = xbmcgui.ListItem('Favourites', iconImage=icon_path('Favourites.png'))
+    li.setArt({ 'fanart':icon_path('fanart.jpg')})
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
 
     url = build_url({'mode': 'latest_movies', 'foldername': 'movies', 'page':'1'})
     li = xbmcgui.ListItem('Latest Added', iconImage=icon_path('Latest_Added.png'))
+    li.setArt({ 'fanart':icon_path('fanart.jpg')})
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
 
     url = build_url({'mode': 'movies_genre', 'foldername': 'movies'})
     li = xbmcgui.ListItem('Genre', iconImage=icon_path('Genre.png'))
+    li.setArt({ 'fanart':icon_path('fanart.jpg')})
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
 
     url = build_url({'mode': 'movies_year', 'foldername': 'movies'})
     li = xbmcgui.ListItem('Year', iconImage=icon_path('Year.png'))
+    li.setArt({ 'fanart':icon_path('fanart.jpg')})
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
-    url = build_url({'mode': 'search_movies', 'foldername': 'search'})
+    url = build_url({'mode': 'search_movie_history', 'foldername': 'search'})
     li = xbmcgui.ListItem('Search', iconImage=icon_path('Search.png'))
+    li.setArt({ 'fanart':icon_path('fanart.jpg')})
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
 
@@ -592,36 +654,73 @@ elif mode[0]=='add_movie_fav':
 elif mode[0]=='search_movies':
     keyboard = xbmc.Keyboard('', 'Search movies', False)
     keyboard.doModal()
-    
+
     if keyboard.isConfirmed():
         query = keyboard.getText()
-        movies=search(query,'movie')
+        add_search_query(query,'movie')
+        xbmc.executebuiltin("Container.Refresh")
+        time.sleep(1.2)
+        url='http://projectfreetv.so/movies/search/' + urllib.quote(query)
+        url = build_url({'mode': 'open_movies_search','url':url})
+        builtin = 'Container.Update(%s)' % (url)
+        xbmc.executebuiltin(builtin)
 
-        for i in range(len(movies)):
-            title=movies[i][0]
-            year=movies[i][1]
-            thumb=movies[i][2]
-            link=movies[i][3]
-            
-
-            my_addon = xbmcaddon.Addon()
-            meta_setting = my_addon.getSetting('movie_metadata')
-            meta=None
-            if meta_setting!='false':
-                metaget=metahandlers.MetaData()             
-                meta = metaget.get_meta('movie', unicode(title), year=unicode(year))
-            if meta==None:
-                meta={}
-                meta['title']=title
-                meta['year']=year
-                meta['cover_url']=thumb
-                meta['backdrop_url']=None
-
-            add_movie_item(link,thumb, title, meta=meta,year=year)
-
-
+elif mode[0]=='search_movie_history':
+    url = build_url({'mode': 'search_movies', 'foldername': 'search'})
+    li = xbmcgui.ListItem('[COLOR green]New Search[/COLOR]', iconImage=icon_path('Search.png'))
     
-        xbmcplugin.endOfDirectory(addon_handle)  
+    li.setArt({ 'fanart':icon_path('fanart.jpg')})
+    xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                                listitem=li, isFolder=True)
+
+    his=get_search_history('movie')
+    for i in range(len(his)):
+        url='http://projectfreetv.so/movies/search/' + urllib.quote(his[i])
+        
+        url = build_url({'mode': 'open_movies_search', 'url': url})
+        li = xbmcgui.ListItem(his[i], iconImage=icon_path('Search.png'))
+        del_url = build_url({'mode': 'del_his_movie'})
+        li.addContextMenuItems([('Erase movie search history','RunPlugin(%s)'%del_url)])
+        li.setArt({ 'fanart':icon_path('fanart.jpg')})
+        xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                            listitem=li, isFolder=True)
+    xbmcplugin.endOfDirectory(addon_handle)
+elif mode[0]=='open_movies_search':
+    dicti=urlparse.parse_qs(sys.argv[2][1:])
+    url=dicti['url'][0]
+    
+    movies,next_page=search(url)
+
+    for i in range(len(movies)):
+        title=movies[i][0]
+        year=movies[i][1]
+        thumb=movies[i][2]
+        link=movies[i][3]
+        
+
+        my_addon = xbmcaddon.Addon()
+        meta_setting = my_addon.getSetting('movie_metadata')
+        meta=None
+        if meta_setting!='false':
+            metaget=metahandlers.MetaData()             
+            meta = metaget.get_meta('movie', unicode(title), year=unicode(year))
+        if meta==None:
+            meta={}
+            meta['title']=title
+            meta['year']=year
+            meta['cover_url']=thumb
+            meta['backdrop_url']=None
+
+        add_movie_item(link,thumb, title, meta=meta,year=year)
+
+    if next_page and next_page!='last':
+        url = build_url({'mode': 'open_movies_search', 'url':next_page})
+        li = xbmcgui.ListItem('Next Page >>', iconImage=icon_path('Next.png'))
+        xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                                listitem=li, isFolder=True)
+    xbmcplugin.endOfDirectory(addon_handle)
+
+
 ###########################################################################################################################################################
 ###########################################################################################################################################################
 #TV
@@ -631,29 +730,35 @@ elif mode[0]=='search_movies':
 elif mode[0]=='tv':
     url = build_url({'mode': 'fav_tv', 'foldername': 'favs'})
     li = xbmcgui.ListItem('Favourites', iconImage=icon_path('Favourites.png'))
+    li.setArt({ 'fanart':icon_path('fanart.jpg')})
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
 
     url = build_url({'mode': 'latest_tv', 'foldername': 'shows'})
     li = xbmcgui.ListItem('Lastest Added', iconImage=icon_path('Last_24_Hours.png'))
+    li.setArt({ 'fanart':icon_path('fanart.jpg')})
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
     url = build_url({'mode': 'last7_tv', 'foldername': 'shows'})
-    li = xbmcgui.ListItem('TV Calendar', iconImage=icon_path('Last_7_Days.png'))
+    li = xbmcgui.ListItem('TV Calendar', iconImage=icon_path('Calendar.png'))
+    li.setArt({ 'fanart':icon_path('fanart.jpg')})
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
     url = build_url({'mode': 'az_shows', 'foldername': 'shows'})
     li = xbmcgui.ListItem('A-Z', iconImage=icon_path('AZ.png'))
+    li.setArt({ 'fanart':icon_path('fanart.jpg')})
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
 
     url = build_url({'mode': 'all_tv', 'foldername': 'shows'})
-    li = xbmcgui.ListItem('All', iconImage=icon_path('All_Shows.png'))
+    li = xbmcgui.ListItem('All Shows', iconImage=icon_path('All_Shows.png'))
+    li.setArt({ 'fanart':icon_path('fanart.jpg')})
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
 
-    url = build_url({'mode': 'search_tv', 'foldername': 'search'})
+    url = build_url({'mode': 'search_tv_history', 'foldername': 'search'})
     li = xbmcgui.ListItem('Search', iconImage=icon_path('Search.png'))
+    li.setArt({ 'fanart':icon_path('fanart.jpg')})
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
 
@@ -806,9 +911,10 @@ elif mode[0]=='more_tv':
     show=get_show_from_ep(page)
     
 
-    eps=get_episodes(show)
+    eps,next_page=get_episodes(show)
 
-
+    #if next_page :
+        #eps=list(reversed(eps))
     for i in range(len(eps)-1,-1,-1):
                 try:
                     show=eps[i][0]
@@ -862,7 +968,13 @@ elif mode[0]=='more_tv':
 
                     add_tv_item(link,show,season,episode,meta=meta)
 
+    if next_page and next_page!='last':
+        url = build_url({'mode': 'open_season', 'link':next_page})
+        li = xbmcgui.ListItem('Next Page >>', iconImage=icon_path('Next.png'))
+        xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                                listitem=li, isFolder=True)
     xbmcplugin.endOfDirectory(addon_handle)  
+
 
 
 elif mode[0]=='last7_tv':
@@ -879,9 +991,9 @@ elif mode[0]=='last7_tv':
                                     listitem=li, isFolder=True)
     else:
         for l in range(len(days)):
-            url = build_url({'mode': 'nada'})
-            li = xbmcgui.ListItem('[COLOR yellow]%s[/COLOR]'%days[l][0], iconImage=icon_path('Upcoming.png'))
-            xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+            li = xbmcgui.ListItem('[COLOR blue]%s[/COLOR]'%days[l][0], iconImage=icon_path('Upcoming.png'))
+            li.setProperty('IsPlayable', 'false')
+            xbmcplugin.addDirectoryItem(handle=addon_handle, url=None,
                                     listitem=li)
 
             eps=get_day_eps(int(days[l][1]))
@@ -1162,16 +1274,12 @@ elif mode[0]=='az_shows':
     abc=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' , '1', '2', '3', '5', '9']
 
     for i in range(len(abc)):
-        if abc[i] not in '12359':
-            url = build_url({'mode': 'open_letter', 'letter':'%s'%abc[i]})
-            li = xbmcgui.ListItem('%s'%abc[i], iconImage=icon_path('%s.png'%abc[i]))
-            xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
-                                    listitem=li, isFolder=True)
-        else:
-            url = build_url({'mode': 'open_letter', 'letter':'%s'%abc[i]})
-            li = xbmcgui.ListItem('%s'%abc[i], iconImage=icon_path('0.png'))
-            xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
-                                    listitem=li, isFolder=True)
+        
+        url = build_url({'mode': 'open_letter', 'letter':'%s'%abc[i]})
+        li = xbmcgui.ListItem('%s'%abc[i], iconImage=icon_path('%s.png'%abc[i]))
+        xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                                listitem=li, isFolder=True)
+    
     xbmcplugin.endOfDirectory(addon_handle)
 
 elif mode[0]=='open_letter':
@@ -1233,8 +1341,9 @@ elif mode[0]=='open_season':
     dicti=urlparse.parse_qs(sys.argv[2][1:])
     link=dicti['link'][0]
 
-    eps=get_episodes(link)
-    
+    eps,next_page=get_episodes(link)
+    if next_page :
+        eps=list(reversed(eps))
 
     for i in range(len(eps)):
             try:
@@ -1286,6 +1395,11 @@ elif mode[0]=='open_season':
                     meta['backdrop_url']=None
 
                 add_tv_item(link,show,season,episode,meta=meta)
+    if next_page and next_page!='last':
+        url = build_url({'mode': 'open_season', 'link':next_page})
+        li = xbmcgui.ListItem('Next Page >>', iconImage=icon_path('Next.png'))
+        xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                                listitem=li, isFolder=True)
 
     xbmcplugin.endOfDirectory(addon_handle)  
 
@@ -1329,17 +1443,37 @@ elif mode[0]=='open_link':
 
 
 elif mode[0]=='search':
-    url = build_url({'mode': 'search_movies', 'foldername': 'search'})
+    url = build_url({'mode': 'search_movie_history', 'foldername': 'search'})
     li = xbmcgui.ListItem('Search Movies', iconImage=icon_path('Search.png'))
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
 
-    url = build_url({'mode': 'search_tv', 'foldername': 'search'})
+    url = build_url({'mode': 'search_tv_history', 'foldername': 'search'})
     li = xbmcgui.ListItem('Search TV Shows', iconImage=icon_path('Search.png'))
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
 
 
+    xbmcplugin.endOfDirectory(addon_handle)
+
+elif mode[0]=='search_tv_history':
+    url = build_url({'mode': 'search_tv', 'foldername': 'search'})
+    li = xbmcgui.ListItem('[COLOR green]New Search[/COLOR]', iconImage=icon_path('Search.png'))
+    
+    li.setArt({ 'fanart':icon_path('fanart.jpg')})
+    xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                                listitem=li, isFolder=True)
+
+    his=get_search_history('tv')
+    for i in range(len(his)):
+        url = build_url({'mode': 'open_tv_search', 'query': his[i]})
+        li = xbmcgui.ListItem(his[i], iconImage=icon_path('Search.png'))
+        del_url = build_url({'mode': 'del_his_tv'})
+        li.addContextMenuItems([('Erase tv search history','RunPlugin(%s)'%del_url)])
+    
+        li.setArt({ 'fanart':icon_path('fanart.jpg')})
+        xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                            listitem=li, isFolder=True)
     xbmcplugin.endOfDirectory(addon_handle)
 
 
@@ -1349,64 +1483,107 @@ elif mode[0]=='search_tv':
     
     if keyboard.isConfirmed():
         query = keyboard.getText()
-        eps=search(query,'tv')
+        add_search_query(query,'tv')
+        xbmc.executebuiltin("Container.Refresh")
+        time.sleep(1.1)
 
-        for i in range(len(eps)):
-                try:
-                    show=eps[i][0]
-                    season=eps[i][1]
-                    episode=eps[i][2]
-                    link=eps[i][3]
-                    my_addon = xbmcaddon.Addon()
-                    meta_setting = my_addon.getSetting('tv_metadata')
-                    meta=None
-                    if meta_setting!='false':
-                        metaget=metahandlers.MetaData()             
-                        meta=metaget.get_episode_meta(eps[i][0], '', eps[i][1], eps[i][2])
-                        title='%s: %sx%s'%(show,season,episode)
-                        meta['title']=title
-                        meta['name']=title
-                    if meta==None:
-                        meta={}
-                        title='%s: %sx%s'%(show,season,episode)
-                        meta['title']=title
-                        meta['name']=title
-                        meta['tvshowtitle']=show
-                        meta['season']=season
-                        meta['episode']=episode
-                        meta['cover_url']=icon_path('TV_Shows.png')
-                        meta['backdrop_url']=None
+        url = build_url({'mode': 'open_tv_search', 'query':query})
+        builtin = 'Container.Update(%s)' % (url)
+        xbmc.executebuiltin(builtin)
+
+
+
+
+elif mode[0]=='open_tv_search':
+        dicti=urlparse.parse_qs(sys.argv[2][1:])
+        query=dicti['query'][0]
+        my_addon = xbmcaddon.Addon()
+        setting = my_addon.getSetting('search_type')
+
+        if setting=='1':
+                            
+            site='http://projectfreetv.so/search/'+urllib.quote(query)
+            eps,next_page=get_episodes(site)
             
-                    add_tv_item(link,show,season,episode,meta=meta)
+            for i in range(len(eps)-1,-1,-1):
+                        try:
+                            show=eps[i][0]
+                            season=eps[i][1]
+                            episode=eps[i][2]
+                            link=eps[i][3]
+                            my_addon = xbmcaddon.Addon()
+                            meta_setting = my_addon.getSetting('tv_metadata')
+                            meta=None
+                            if meta_setting!='false':
+                                metaget=metahandlers.MetaData()             
+                                meta=metaget.get_episode_meta(eps[i][0], '', eps[i][1], eps[i][2])
+                                meta['title']=meta['title'].encode('ascii','ignore')
+                                
+                            if meta==None:
+                                meta={}
+                                title='%s: %sx%s'%(show,season,episode)
+                                meta['title']=title
+                                meta['name']=title
+                                meta['tvshowtitle']=show
+                                meta['season']=season
+                                meta['episode']=episode
+                                meta['cover_url']=icon_path('TV_Shows.png')
+                                meta['backdrop_url']=None
+                    
+                            add_tv_item(link,show,season,episode,meta=meta)
+                        except:
+                            show=eps[i][0].encode('ascii','ignore')
+                            season=eps[i][1]
+                            episode=eps[i][2]
+                            link=eps[i][3]
+                            my_addon = xbmcaddon.Addon()
+                            meta_setting = my_addon.getSetting('tv_metadata')
+                            meta=None
+                            if meta_setting!='false':
+                                metaget=metahandlers.MetaData()             
+                                meta=metaget.get_episode_meta(eps[i][0], '', eps[i][1], eps[i][2])
+                                meta['title']=meta['title'].encode('ascii','ignore')
+                                
+                            if meta==None:
+                                meta={}
+                                title='%s: %sx%s'%(show,season,episode)
+                                meta['title']=title
+                                meta['name']=title
+
+                                meta['tvshowtitle']=show
+                                meta['season']=season
+                                meta['episode']=episode
+                                meta['cover_url']=icon_path('TV_Shows.png')
+                                meta['backdrop_url']=None
+
+                            add_tv_item(link,show,season,episode,meta=meta)
+
+            if next_page and next_page!='last':
+                url = build_url({'mode': 'open_season', 'link':next_page})
+                li = xbmcgui.ListItem('Next Page >>', iconImage=icon_path('Next.png'))
+                xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                                        listitem=li, isFolder=True)
+            xbmcplugin.endOfDirectory(addon_handle)  
+
+            
+        else:
+            shows=search_shows(query)
+            for i in range(len(shows)):
+                url = build_url({'mode': 'open_show', 'link': '%s'%(shows[i][1])})
+                li = xbmcgui.ListItem('%s'%shows[i][0], iconImage=icon_path('TV_Shows.png'))
+                try:
+                    fav_uri = build_url({'mode': 'add_tv_fav', 'show': shows[i][0],'link': shows[i][1]})
                 except:
-                    show=eps[i][0].encode('ascii','ignore')
-                    season=eps[i][1]
-                    episode=eps[i][2]
-                    link=eps[i][3]
-                    my_addon = xbmcaddon.Addon()
-                    meta_setting = my_addon.getSetting('tv_metadata')
-                    meta=None
-                    if meta_setting!='false':
-                        metaget=metahandlers.MetaData()             
-                        meta=metaget.get_episode_meta(show, '', eps[i][1], eps[i][2])
-                        title='%s: %sx%s'%(show,season,episode)
-                        meta['title']=title
-                        meta['name']=title
-                    if meta==None:
-                        meta={}
-                        title='%s: %sx%s'%(show,season,episode)
-                        meta['title']=title
-                        meta['name']=title
+                    fav_uri = build_url({'mode': 'add_tv_fav', 'show': ((shows[i][0]).encode('ascii','ignore')),'link':shows[i][1] })
 
-                        meta['tvshowtitle']=show
-                        meta['season']=season
-                        meta['episode']=episode
-                        meta['cover_url']=icon_path('TV_Shows.png')
-                        meta['backdrop_url']=None
+                li.addContextMenuItems([ ('Add to PFTV favourites', 'RunPlugin(%s)'%fav_uri)])
+                xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                                        listitem=li, isFolder=True)
+            xbmcplugin.endOfDirectory(addon_handle)
 
-                    add_tv_item(link,show,season,episode,meta=meta)
 
-        xbmcplugin.endOfDirectory(addon_handle) 
+
+
 ###########################################################################################################################################################
 ###########################################################################################################################################################
 ###########################################################################################################################################################
@@ -1558,16 +1735,31 @@ elif mode[0]=='download':
             resolved=urlresolver.resolve(link)
 
             if resolved:
+                
+
                 download(title,resolved,type)
     else:
         import urlresolver
         for i in range(len(links)):
             link=get_link(links[i][1])
-            stream_url=urlresolver.resolve(link)
+            resolved=urlresolver.resolve(link)
 
-            if stream_url:
+            if resolved:
                 download(title,stream_url,type)
-                break
-            else:
-                pass
+                break    
+elif mode[0]=='erase_history':
     
+    ret = xbmcgui.Dialog().yesno('Erase history', 'Are you sure you want to delete your search history?' ) 
+    
+    if ret:       
+
+        delete_history('movies')
+        delete_history('tv')
+        xbmcgui.Dialog().ok("ProjectFreeTV.so", "Successfully erased search history!")
+
+elif mode[0]=='del_his_tv':
+    delete_history('tv')
+    xbmc.executebuiltin("Container.Refresh")
+elif mode[0]=='del_his_movie':
+    delete_history('movie')
+    xbmc.executebuiltin("Container.Refresh")

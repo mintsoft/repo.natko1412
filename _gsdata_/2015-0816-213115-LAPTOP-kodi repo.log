@@ -1,0 +1,18 @@
+2015-08-16 21:31:16: -- Analysis Started by User
+2015-08-16 21:31:26: Changes: 6, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 464
+2015-08-16 21:31:26: Left to Right: Copy File: 6 
+2015-08-16 21:31:26: -- Analysis Complete. Time 00:00:11, Speed: 42 files/s
+2015-08-16 21:31:26: 
+2015-08-16 21:31:30: Done.
+2015-08-16 21:31:34: Done.
+2015-08-16 21:31:35: Done.
+2015-08-16 21:31:38: Done.
+2015-08-16 21:31:44: == Sync Started by User
+2015-08-16 21:31:45: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/addons.xml' -> 'ftp://ftp.offshoregit.com/addons.xml'
+2015-08-16 21:31:45: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/addons.xml.md5' -> 'ftp://ftp.offshoregit.com/addons.xml.md5'
+2015-08-16 21:31:46: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/repository.natko1412/addon.xml' -> 'ftp://ftp.offshoregit.com/repository.natko1412/addon.xml'
+2015-08-16 21:31:47: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/repository.natko1412/repository.natko1412-2.0.0.zip' -> 'ftp://ftp.offshoregit.com/repository.natko1412/repository.natko1412-2.0.0.zip'
+2015-08-16 21:31:47: Copy Over 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/repository.natko1412/addon.xml' -> 'ftp://ftp.offshoregit.com/zips/repository.natko1412/addon.xml'
+2015-08-16 21:31:48: Copy New 'C:/Users/Natko/Desktop/Natko/GIT/repo.natko1412/zips/repository.natko1412/repository.natko1412-2.0.0.zip' -> 'ftp://ftp.offshoregit.com/zips/repository.natko1412/repository.natko1412-2.0.0.zip'
+2015-08-16 21:31:50: == Sync Complete. Time: 00:00:07, Speed: 3,52 KB/s, OK: 6, Errors: 0
+2015-08-16 21:31:50: 

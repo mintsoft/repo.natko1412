@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
 	<category label="General">
+    <setting id="theme" type="enum" label="Theme" values="PFTV|Simple"/>
+    
     <setting id="episodes_action" type="enum" label="Default action on 'Latest episodes'" values="Host selection|Browse older episodes"/>
     <setting id="calendar_type" type="enum" label="Calendar type" values="Folders by date|Single folder"/>
+    <setting id="search_type" type="enum" label="Tv Search" values="TV Shows|Episodes"/>
+
     <setting label="
             " type="lsep"/>
     <setting type="sep"/>
-    <setting label="Reset favourites" type="action" action="RunPlugin(plugin://plugin.video.pftvso/?mode=erase_all)" enable="true" option="close"/>
+    <setting label="Delete all favourites" type="action" action="RunPlugin(plugin://plugin.video.pftvso/?mode=erase_all)" enable="true" option="close"/>
+    <setting label="Delete search history" type="action" action="RunPlugin(plugin://plugin.video.pftvso/?mode=erase_history)" enable="true" option="close"/>
+
+
     </category>
 
     <category label="Metadata">
@@ -17,6 +24,7 @@
     
 	<category label="Sources">
     <setting id="autoplay" type="bool" label="Enable autoplay" default="false"/>
+    <setting id="axel" type="bool" label="Use axel accelerator ([COLOR red]experimental[/COLOR])" default="false"/>
 
     <setting label="Source blacklist (comma separated e.g.: vidzi.tv,vodlocker.com)" type="lsep"/>
 
