@@ -635,9 +635,10 @@ elif mode[0]=='open_channel':
         thumb=game_list[i][2]
         desc=game_list[i][3]
         
-        uri='plugin://plugin.video.youtube/?action=play_video&videoid='+video_id
+        uri='plugin://plugin.video.youtube/play/?video_id='+video_id
         li = xbmcgui.ListItem('%s'%title, iconImage=thumb)
         li.setProperty('IsPlayable', 'true')
+        li.setInfo('video', { 'genre': 'YouTube' } )
 
         xbmcplugin.addDirectoryItem(handle=addon_handle, url=uri, listitem=li)#,isFolder=True)
 
