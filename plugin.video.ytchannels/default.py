@@ -41,12 +41,7 @@ db=sqlite3.connect(new_db_path)
 my_addon = xbmcaddon.Addon()
 enable_playlists = my_addon.getSetting('enable_playlists')
 
-YOUTUBE_API_KEY = 'AIzaSyDIwXfF0WjgTUwuazYIc7SFDqr576b_xs4'
-
-top_channels_by_subscribe = 'http://vidstatsx.com/youtube-top-100-most-subscribed-channels'
-
-   
-
+YOUTUBE_API_KEY = my_addon.getSetting('youtube_api_key')
 
 categories_list=[['Autos and vehicles','http://vidstatsx.com/youtube-top-100-most-viewed-autos-vehicles'],['Comedy','http://vidstatsx.com/youtube-top-100-most-viewed-comedy'],
             ['Education','http://vidstatsx.com/youtube-top-100-most-viewed-education'],['Entertainment','http://vidstatsx.com/youtube-top-100-most-viewed-entertainment'],
